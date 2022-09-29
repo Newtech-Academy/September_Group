@@ -17,9 +17,11 @@
 ![lists](https://user-images.githubusercontent.com/87221229/180209432-705a6b66-601d-4a63-955f-9e33ba63efa2.PNG)
 
 
-10.	In pagina-doi.html, creati un tabel, dupa modelul de mai jos:
+10.	In pagina-doi.html, creati doua tabele, dupa modelele de mai jos:
 
 ![tabel](https://user-images.githubusercontent.com/87221229/180209562-e1f7d83d-bf73-4580-9706-1f99a7684f87.PNG)
+
+![tabel](https://github.com/Newtech-Academy/September_Group/blob/Homework-1---Original/images/tabel2.PNG?raw=true)
 
 !Puteti sa va jucati si cu cellpadding si cellspacing.
 Have fun😊
