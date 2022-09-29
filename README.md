@@ -1,35 +1,25 @@
-# September_Group
+# July_Group
 
-Homework and Practice Repo for 19th September Group
+1.	Creati un document HTML cu numele index.html si puneti titlul “Prima Pagina”.
+2.	Incarcati poza (logo.jpg) in coltul dreapta al paginii.
+3.	Trasati o linie despartitoare (hint: tagul hr) pe toata lungimea paginii.
+4.	Incarcati poza (tree.jpg). Extra: jucati-va cu inaltimea si lungimea pozei (width, height) .
+5.	Incarcati logourile (google, youtube, newtech, twitter) si pozitionati-le astfel: 2 logouri in stanga paginii, celelalte 2 in dreapta paginii. 
+6.	Creati o lista de definitii cu urmatorul text: 
+!!! Respectati stiluri (bolduit, italic, subliniat).
+![lists2](https://user-images.githubusercontent.com/87221229/180209956-28de37ff-a924-4563-8c26-5a28382bce41.PNG)
 
-This is the Git Repository for participants of 19th september course group. In this place you can upload your homeworks and exercises to be code reviewed and approved.
 
-## How does this work?
+7.	Creati un al doilea document HTML cu numele pagina-doi.html si titlul “A doua pagina”.
+8.	In pagina index.html, sub lista de definitii de la punctul 6, creati un link care sa duca la pagina-doi.html.
+9.	In pagina-doi.html creati 2 liste neordonate, urmarind exemplul de mai jos: 
 
--   The teacher will give you the asignment name for example ('demo-project')
--   You clone the repo, create a branch with your own name and create a pull request to be approved and reviewed.
--   Generally, the reviews are done all week, untill Friday 20:00
+![lists](https://user-images.githubusercontent.com/87221229/180209432-705a6b66-601d-4a63-955f-9e33ba63efa2.PNG)
 
-# Installation guide:
 
-Download [https://desktop.github.com/]
+10.	In pagina-doi.html, creati un tabel, dupa modelul de mai jos:
 
-## Clone Repo
+![tabel](https://user-images.githubusercontent.com/87221229/180209562-e1f7d83d-bf73-4580-9706-1f99a7684f87.PNG)
 
-![Clone Repo](https://i.imgur.com/b1mao7A.png)
-
-## Create a new Branch
-
-![Create a branch](https://i.imgur.com/GtX4PdP.png)
-
-## Commit your Work
-
-![Commit Work](https://i.imgur.com/M9Sanco.png)
-
-## Create a pull request
-
-![Push Origin](https://i.imgur.com/Vper1Zh.png)
-
-![Create Pull Request](https://i.imgur.com/fL5DYMs.png)
-
-![Create Pull Request](https://i.imgur.com/VbzibuC.png)
+!Puteti sa va jucati si cu cellpadding si cellspacing.
+Have fun😊
