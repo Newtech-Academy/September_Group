@@ -1,4 +1,4 @@
-# July_Group
+# September Group - Homework 1
 
 1.	Creati un document HTML cu numele index.html si puneti titlul “Prima Pagina”.
 2.	Incarcati poza (logo.jpg) in coltul dreapta al paginii.
