@@ -1,35 +1,36 @@
-# September_Group
+# Project - Product card component
 
-Homework and Practice Repo for 19th September Group
+## Welcome! 👋
 
-This is the Git Repository for participants of 19th september course group. In this place you can upload your homeworks and exercises to be code reviewed and approved.
+Thanks for checking out this front-end coding challenge.
 
-## How does this work?
+## The challenge
 
--   The teacher will give you the asignment name for example ('demo-project')
--   You clone the repo, create a branch with your own name and create a pull request to be approved and reviewed.
--   Generally, the reviews are done all week, untill Friday 20:00
+Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
-# Installation guide:
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Download [https://desktop.github.com/]
+## Where to find everything
 
-## Clone Repo
+Your task is to build out the project to the designs inside the `/design` folder. You will find the desktop version of the design. 
 
-![Clone Repo](https://i.imgur.com/b1mao7A.png)
+You will find the picture needed in the `/images` folder.
 
-## Create a new Branch
+Color code for price and "Add to Cart" section is #3D8168; The another color code for price is #6C7289
 
-![Create a branch](https://i.imgur.com/GtX4PdP.png)
+Code colors: 
+- Add to cart section and price - #3D8168
+- The second price and description - #6C7289
+- Gabrielle Essence section - #1C232B
+- Background outside the product - ##F2EAE2
 
-## Commit your Work
 
-![Commit Work](https://i.imgur.com/M9Sanco.png)
+## Building your project
 
-## Create a pull request
+Download the starter code
+Set up the project with version control (e.g. Git)
+Read the README.md file and have a look around the project
+Set up your project/file architecture however you want
+Start coding!
 
-![Push Origin](https://i.imgur.com/Vper1Zh.png)
-
-![Create Pull Request](https://i.imgur.com/fL5DYMs.png)
-
-![Create Pull Request](https://i.imgur.com/VbzibuC.png)
+**Have fun building!** 🚀
