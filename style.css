@@ -1,0 +1,80 @@
+#tbl
+{
+    border-radius: 8px;
+    border-spacing: 0px;
+    padding-right: 16px;
+}
+#pic
+{
+    width: 260px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    display: block;
+}
+#per
+{
+    color: grey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#gab
+{
+    color: #1C232B;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    padding-left: 20px;
+}
+#flo
+{
+    color:#6C7289;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    padding-left: 20px;
+}
+#pg
+{
+    font-weight: bold;
+    color: #3D8168;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+#ps
+{
+    color: #6C7289;
+    font-size: 12px;
+    text-align:center;
+    text-decoration: line-through;
+}
+#cart
+{
+    text-align: center;
+}
+#pic2
+{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+#but
+{
+    background-color: #3D8168;
+    width: 200px;
+    height: 40px;
+    border-color:#3D8168;
+    border-radius: 13px;
+    border-style: solid;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
