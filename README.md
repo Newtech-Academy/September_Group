@@ -22,7 +22,7 @@ Code colors:
 - Add to cart section and price - #3D8168
 - The second price and description - #6C7289
 - Gabrielle Essence section - #1C232B
-- Background outside the product - ##F2EAE2
+- Background outside the product - #F2EAE2
 
 
 ## Building your project
