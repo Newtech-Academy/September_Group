@@ -1,48 +1,98 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title>A doua pagina</title>
-        <head>
-        <body>
-<ul>
-<h3><li>Animale</li></h3>
-    <ul><li>Mamifere</li> </ul>
-        <ol>I.Pisica</ol>
-        <ol>II.Vaca</ol>
-        <ol>III.Elefant</ol>
+</head>
 
-    <ul><li>Pasari</li></ul>
-    <ol>I. Porumbel</ol>
-    <ol>II.Vrabie</ol>
-    <ol>III.Gaina</ol>
-<h3><li>Plante</li></h3>
-    <ul><li>Arbori</li></ul>
-    <ol>I. Salcam</ol>
-    <ol>II.Stejar</ol>
-    <ol>III.Brad</ol>
-    <ul><li>Cereale</li></ul>
-    <ol>I. Porumb</ol>
-    <ol>II.Grau</ol>
-    <ol>III.Secara</ol>
-       <p>
-        <table border="1"> 
-            <tr><th colspan="2"> Octomber</th> <th colspan="2"> November </th><tr>
-                <tr><td>Sales</td><td>Profit</td><td>Sales</td><td>Profit</td></tr>
-                <tr><td>200,00</td><td>50,00</td><td>300,00</td><td>70,00</td</tr>
-             <tr><td colspan="4" align="center"><b>NOVEMBER WAS MORE PRODUCTIVE!</b></td></tr>
-        </table>
-        </p>
-        <p>
+<body>
+    <title> A doua pagina </title>
+    <h1>Lists</h1>
+    <ul style="border:2px solid Tomato">
+        <li>Animale</li>
+        <ul>
+            <li>Mamifere</li>
+            <dd>
+                <ol>
+                    <li color="red"> Pisica </li>
+                    <li> Vaca </li>
+                    <li> Elefant </li>
+                </ol>
+            </dd>
+            <li> Pasari </li>
+            <dd>
+                <ol>
+                    <li> Porumbel </li>
+                    <li> Vrabie </li>
+                    <li> Gaina </li>
+                </ol>
+            </dd>
+        </ul>
+    </ul>
+    <ul style="border:2px solid green">
+        <li>Plante</li>
+        <ul>
+            <li>Arbori</li>
+            <dd>
+                <ol>
+                    <li> Salcam </li>
+                    <li> Stejar </li>
+                    <li> Brad </li>
+                </ol>
+            </dd>
+            <li> Cerelae </li>
+            <dd>
+                <ol>
+                    <li> Porumb </li>
+                    <li> Grau </li>
+                    <li> Secara </li>
+                </ol>
+            </dd>
+        </ul>
+    </ul>
+    <h1>Tabel1</h1>
+    <table border=" 1" cellpadding="15">
+        <thead>
+            <th colspan="2" ; bgcolor="red">October</th>
+            <th colspan="2" ; bgcolor="red">November</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sales</td>
+                <td>Profit</td>
+                <td>Sales</td>
+                <td>Profit</td>
+            </tr>
+            <tr>
+                <td>200,00</td>
+                <td>50,00</td>
+                <td bgcolor="blue">300,00</td>
+                <td>70,00</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center"> November was more productive </td>
+            </tr>
+
+        </tbody>
     </table>
-    <table border="1">
-            <tr><th colspan="2">Name</th> <th>Age</th></tr>
-            <tbody> <td>Jill</td>
-                <td> Smith</td>
-                <td>43</td>
-            <tbody> <td>Eve</td>
-                <td>Jackson</td>
-                <td>57</td>
-        </p>
-    </body>
+    <h1>Tabel2</h1>
+    <table border="2" ; cellspacing="15" ; cellpadding="20" ; bgcolor="green">
 
-</html>     
+        <tr>
+            <td colspan="2"><b>Name</b></td>
+            <td><b>Age</b></td>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+</body>
+
+</html>
