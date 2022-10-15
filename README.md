@@ -1,35 +1,39 @@
-# September_Group
+# Final Project - HTML&CSS
+## Welcome! 👋
 
-Homework and Practice Repo for 19th September Group
 
-This is the Git Repository for participants of 19th september course group. In this place you can upload your homeworks and exercises to be code reviewed and approved.
+## The challenge
 
-## How does this work?
+Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
--   The teacher will give you the asignment name for example ('demo-project')
--   You clone the repo, create a branch with your own name and create a pull request to be approved and reviewed.
--   Generally, the reviews are done all week, untill Friday 20:00
+For this project you will use HTML and CSS (external CSS).
 
-# Installation guide:
+Your users should be able to:
 
-Download [https://desktop.github.com/]
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-## Clone Repo
+## Where to find everything
 
-![Clone Repo](https://i.imgur.com/b1mao7A.png)
+Your task is to build out the project to the designs inside the `/assets` folder. (screenshot-desktop.jpeg, screenshot-tablet.jpeg, screenshot-mobile.jpeg)
+Site must be responsive, check out the screenshots for the mobile, tablet and desktop versions.
 
-## Create a new Branch
+Also in the "/assets" folder you will find the pictures with the girl. 
 
-![Create a branch](https://i.imgur.com/GtX4PdP.png)
+The small pictures are with "svg" extension. 
 
-## Commit your Work
+Code colors: 
+ - get started button and the title: #13183f
+ - description: #83869a
+ - get started button: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+ 
+ 
+## Building your project
 
-![Commit Work](https://i.imgur.com/M9Sanco.png)
+- Download the starter code
+- Set up the project with version control (e.g. Git)
+- Read the README.md file and have a look around the project
+- Set up your project/file architecture however you want
+- Start coding!
 
-## Create a pull request
-
-![Push Origin](https://i.imgur.com/Vper1Zh.png)
-
-![Create Pull Request](https://i.imgur.com/fL5DYMs.png)
-
-![Create Pull Request](https://i.imgur.com/VbzibuC.png)
+**Have fun building!** 🚀
