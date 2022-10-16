@@ -15,8 +15,8 @@ Your users should be able to:
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/assets` folder. (screenshot-desktop.jpeg, screenshot-tablet.jpeg, screenshot-mobile.jpeg)
-Site must be responsive, check out the screenshots for the mobile, tablet and desktop versions.
+- Your task is to build out the project to the designs inside the `/assets` folder. (screenshot-desktop.jpeg, screenshot-tablet.jpeg, screenshot-mobile.jpeg)
+- Site must be responsive, check out the screenshots for the mobile, tablet and desktop versions.
 
 Also in the "/assets" folder you will find the pictures with the girl. 
 
