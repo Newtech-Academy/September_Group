@@ -1,0 +1,59 @@
+html {
+    background-color: rgb(213, 231, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+
+}
+
+img {
+    vertical-align: bottom;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: auto;
+}
+
+#td2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    vertical-align: bottom;
+}
+
+#td3 {
+    color: #d2d2d2;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+#td4 {
+    color: #8d8d8d;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+#td5 {
+    font-size: 35px;
+    color: #474747;
+    vertical-align: top;
+}
+
+#buy {
+    font-size: 20px;
+    color: white;
+    background-color: #9cebd5;
+    padding: 10px 45px;
+    border-radius: 20px;
+    vertical-align: 5px;
+    margin-left: 20px;
+}
+
+.right {
+    padding-left: 35px;
+    padding-right: 15px;
+}
