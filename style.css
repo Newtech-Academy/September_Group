@@ -1,0 +1,79 @@
+#bd
+{
+    background-color: black;
+}
+#dv
+{
+    background-color: rgb(250, 240, 224);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 360px;
+}
+#tbl
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-radius: 10px;
+    border-spacing: 0px;
+}
+#pic
+{
+    border-radius: 10px;
+    height: 340px;
+    width: 270px;
+    vertical-align: bottom;
+}
+#td1
+{
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #474747;
+    padding-left: 20px;
+    line-height: 18px;
+    width: 260px;
+    padding-top: 10px;
+    height: 70px;
+}
+#sp
+{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d2d2d2;
+    letter-spacing: 4px;
+}
+#td2
+{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8d8d8d;
+    padding-left: 20px;
+    padding-right: 5px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+#td3
+{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #474747;
+    text-align: center;
+    height: 90px;
+    padding-bottom: 5px;
+}
+#bt
+{
+    background-color: #9cebd5;
+    border-color: #9cebd5;
+    color: white;
+    border-radius: 20px;
+    border-style: solid;
+    height: 38px;
+    width: 133px;
+    margin-left: 15px;
+    font-size: 13px;
+    letter-spacing: 0.9px;
+}
