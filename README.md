@@ -23,7 +23,7 @@ Code colors:
 - Price - #474747
 - Button - #9cebd5
 
-Font-family: use Georgia. 
+Font-family: use GEORGIA. 
 
 
 ## Building your project
