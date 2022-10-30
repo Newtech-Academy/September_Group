@@ -1,0 +1,91 @@
+.div_mare{
+    height:685px;
+    width:640px;
+    background-color: rgb(217, 255, 47);
+    border-radius:8px;
+    box-shadow: 5px 5px 5px, -1px -1px 3px;
+    padding:35px;
+   }
+
+/* se aplica tuturor elemntelor din pagina pentru spatiere la stanga. Nu mai este nevoie , am rezolvat cu padding in <div>*/
+/* .left_m{
+    margin-left:20px;
+} */
+
+.div_label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-block: 10px;
+    }
+
+input{
+    width:93%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    text-anchor: rgb(230,230,230);
+    padding-left: 30px;
+    margin-top:0px;
+    border-color: rgba(151, 255, 151, 0.952);
+    }
+
+::placeholder{
+    color: rgb(163, 163, 163);
+    font-size:16px;
+}
+
+ .data{
+    width:31%;
+    height:30px;
+    color:rgb(111, 140, 244);
+    border-radius: 0px;
+    border-color: rgba(151, 255, 151, 0.952);
+    border-style: solid;
+    border-width: 2px;
+    font-size: 16px;
+} 
+
+#div_label_dn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#div_label_desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+textarea{
+    border-radius: 4px;
+    border-style: solid;
+    border-color:rgba(151, 255, 151, 0.952) ;
+    border-width: 2px;
+
+}
+
+.buton{
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 50px;
+    height:auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:none;
+}
+
+table{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+#td_sp{
+    width:45%;
+}
