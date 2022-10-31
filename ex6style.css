@@ -1,0 +1,66 @@
+.big{
+    background-color:#39FF14;
+    width:60%;
+   
+    padding: 15px 20px;
+    border-radius:30px;
+    border-right:50px;
+    margin:100px;
+    box-sizing: border-box;
+}
+
+.row{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    margin-block:10px;
+}
+
+.cells{
+    padding: 8px 12px;
+    width:80%
+}
+
+.select{
+padding: 8px 12px;
+color:blue;
+background-color:azure;
+border:1 px solid #dddddd;
+cursor:pointer;
+border-radius:5px;
+width:27%;
+}
+
+.select:focus,
+.select:hover {
+    outline:none;
+    border:2px solid#df7171;
+}
+
+.select option{
+    background:rgb(245, 213, 244);
+}
+
+#button1{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+    font-size:15px;
+    cursor:pointer;
+    width:180px;
+    height:30px;
+}
+
+#button2{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+    font-size:15px;
+    cursor:pointer;
+   display:inline-block;
+   width:180px;
+   height:30px;
+   margin-left:450px;
+}
+  

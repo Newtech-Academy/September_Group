@@ -1,0 +1,108 @@
+#L1{
+    overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    border:3px;
+    border-color:red;
+    
+}
+.list1{
+  
+    display:inline-block;
+    margin-top: 5px solid black;
+    border-style:solid;
+    border-color:red;
+    background-color:yellow;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:10px;
+    
+}
+
+#L2{
+    display:grid;
+    gap:5px;
+    border:10px;
+    border-radius:10px;
+    padding:20px;
+    border-color:blue;
+    width:70%;
+}
+
+.list2{
+    border-radius:10px;
+   border-style:solid;
+    border-color:blue;
+    background-color:yellow;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+    padding:10px;
+    width:70%;
+}
+
+label{
+    width:80px;
+    height:40px;
+    display:block;
+    background:rgb(225, 96, 96);
+    border-radius:20px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+label span{
+    width:34px;
+    height:34px;
+    background:#000;
+    border-radius:50%;
+    margin-left:3px;
+ color:#FFF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    transition:margin-left 0.5s;
+}
+
+#btn{
+    display:none;
+}
+
+#btn:checked+ label span{
+    margin-left:43px;
+    background:#5bce5b;
+    color:#fff;
+}
+
+#L3{
+    display:grid;
+    gap:10px;
+    border:3px;
+    list-style-type:none;
+    list-style-position: outside;
+    list-style-image:url(punct.png)
+    
+}
+
+.list3{
+    
+        border-style:solid;
+        border-color:red;
+        background-color:aqua;
+        font-size:15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:italic;
+        color:blue;
+        padding:10px;
+        width:70%;
+        
+}
+
