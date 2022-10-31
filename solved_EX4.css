@@ -1,0 +1,47 @@
+.ul1{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.li1{
+    border: 1px red solid;
+    color:blue;
+    text-decoration: underline;
+    display:inline;
+    background-color: yellow;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+.ul2{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.li2{
+    border: 1px blue solid;
+    color:red;
+    font-style: italic;
+    background-color: yellow;
+    padding: 10px;
+    align-items: center;
+    width:25%;
+    border-radius: 5px;
+    margin: 5px;
+}
+.ol1{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.li3{
+    list-style-image: url(punct.png);
+    border: 3px red solid;
+    color:blue;
+    background-color: cyan;
+    align-items: center;
+    width: 30%;
+    margin:5px;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}

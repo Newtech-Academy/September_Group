@@ -1,0 +1,31 @@
+table{
+    width: 80%;
+    border:1px black solid;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+th{
+    background-color: black;
+    color:white;
+}
+
+[colspan] {
+    color: red;
+    font-style:italic;
+    text-align: center;
+}
+th{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: rgb(225, 223, 223)
+}
+tr:hover{
+    background-color: #d2d0cddf;
+}
