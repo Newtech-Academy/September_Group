@@ -1,0 +1,52 @@
+
+.lista1 li{
+    text-decoration: underline;
+    display: inline-block;
+    background: yellow;
+    width: 100px;
+    outline: 1px solid red;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    color: blue;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.lista2 li{
+    list-style: none;
+    font-style: italic;
+    background: yellow;
+    outline: 1px solid blue;
+    width: 550px;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 15px;
+    color: red; 
+    font-size: 15pt;
+}     
+
+.lista3 li{
+    background: rgb(147, 248, 255);
+    width: 650px;
+    outline: 6px solid red;
+    padding: 7px 7px 7px 20px;
+    margin: 17px;
+    color: black;
+
+}
+
+.lista3 li a {
+text-decoration: none;
+font-size: larger;
+}
+
+ol {
+    list-style: image url(punct.png);
+    counter-reset: orderedlist;  
+}
+.container {
+    padding-top: 30px;
+}
+ 

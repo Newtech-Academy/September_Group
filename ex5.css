@@ -1,0 +1,31 @@
+.tabel {
+    border: 1px solid black;
+    width: 98%;
+}
+.tr1 {
+    background-color: black;
+    color: white;
+        }
+.td1 {
+    text-align: center;
+    height: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.td2 {
+    font-style: italic;
+    padding-left: 1%;
+    height: 50px;
+}
+.td3 {
+    font-style: italic;
+    background-color: lightgray;
+    padding-left: 1%;
+    height: 50px;
+}
+.td4 {
+    text-align: center;
+    font-style: italic;
+    color: red;
+    height: 50px;
+    }

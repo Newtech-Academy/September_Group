@@ -1,0 +1,49 @@
+.div1 {
+    background-color: rgb(199, 255, 110);
+    padding: 20px;
+    border-radius: 10px;
+}
+.div2 {
+    padding: 10px;
+}
+.div3 {
+    display: inline-block;
+    padding: 20px;
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+#trimite {
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    border-radius: 10px;
+    width: 155px;
+    height: 35px;
+}
+#sterge {
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    border-radius: 10px;
+    width: 155px;
+    height: 35px;
+}
+select {
+    width: 195px;
+    height: 35px;
+    padding-left: 8px;
+}
+input {
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color: greenyellow;
+    height: 30px;
+    width: 590px;
+}
+textarea {
+    border-radius: 7px;
+    border-color: greenyellow;
+}
+
+
