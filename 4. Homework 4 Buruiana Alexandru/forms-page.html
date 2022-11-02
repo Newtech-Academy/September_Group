@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./form-page.css">
+    <link rel="stylesheet" href="./nav-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poiret+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+       <!-- NAV -->
+
+       <nav>
+        <div class="nav-content">
+        <div class="logo-nav">
+          <a href="./main.html"> <img src="./images/LOGO transparent.png" alt=""></a> 
+        </div>
+        <ul>
+            <li><a href="./tables-page.html">PREVIOUS</a></li>
+            <li><a href="./main.html">HOME</a></li>
+            <li><a href="./list-page.html">FORWARD</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <main>
+      <div class="forms-container">
+        <form action="./forms-page.html">
+            <div class="filed">
+                <h3>Nume:</h3>
+                <input type="text" placeholder="       Scrie Numele" >
+            </div>
+            <div class="filed">
+                <h3>Prenume:</h3>
+                <input type="text" placeholder="       Scrie Prenumele" >
+            </div>
+            <div class="filed">
+                <h3>E-mail:</h3>
+                <input type="email" placeholder="        Scrie e-mail-ul" >
+            </div>
+            <div class="filed">
+                <h3>Parola:</h3>
+                <input type="password" placeholder="       Scrie Parola" >
+            </div>
+            <div class="filed">
+                <h3>Repeta Parola:</h3>
+                <input type="password" placeholder="      Repeta Parola" >
+            </div>
+            <div class="filed birth-day">
+                <h3>Data Nasterii:</h3>
+                <select class="month">
+                    <option value="month">Month</option>
+                    <option value="january">January</option>
+                    <option value="month">February</option>
+                </select>
+                <select class="days">
+                    <option value="days">Days</option>
+                    <option value="days">1</option>
+                    <option value="days">2</option>
+                </select>
+                <select class="year">
+                    <option value="year">Year</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                </select>
+            </div>
+            <div class="filed">
+                <h3>Adauga o Descriere:</h3>
+                <textarea name="" id="" cols="62" rows="10"></textarea>
+            </div>
+            <div class="form-footer">
+                <input type="submit" value="Trimite Datele" class="button">
+                <input  type="reset" value="Sterge Datele" class="button">
+            </div>
+        </form>
+      </div>
+    </main>
+    
+</body>
+</html>

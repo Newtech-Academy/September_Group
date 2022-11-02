@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    h1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 50px;
+        line-height: 30px;
+    }
+    text-align: center;
+    span{
+        background-color: #f2f2f2;
+        color:#e11a44 ;
+    }
+}
+
+.unordered-list-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+    
+    
+}
+
+.unordered-list-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+   
+    ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    li{
+        white-space: nowrap;
+        background-color: #f2f2f2;
+        border: 1px solid #1f1f1f;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+
+        
+
+       
+   
+    }
+
+}
+
+.unordered-list-column{
+   
+    ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    li{
+        white-space: nowrap;
+        background-color: #f2f2f2;
+        border: 1px solid #1f1f1f;
+        width: 500px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+
+    }
+}
+
+.ordered-list-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+
+
+    
+    ol{
+        list-style-image: url('./images/punct.png');
+        
+        margin-top:auto;
+        margin-bottom: auto;
+        
+    }
+    ol li{
+        margin: 15px;
+    }
+    li{
+        text-align: center;
+        background-color: #f2f2f2;
+        border: 1px solid #1f1f1f;
+        white-space: nowrap;
+        width: 500px;
+        height: 50px;
+        line-height: 50px;
+        
+        
+    }
+}
+
+.back-to-top-top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
