@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="homework4.css">
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/"> -->
+    <!-- <style>
+        #ul1 {
+            list-style-type: none;
+            display: inline-flex;
+            /*  border: 10px;
+            border-color: red;
+            padding: 20px; */
+            margin-left: 35px;
+            padding: 20px;
+            font-size: xx-large;
+        }
+
+        #li1 {
+            border: 2px solid;
+            border-color: red;
+            margin-right: 30px;
+            background-color: yellow;
+            color: blue;
+
+        }
+
+        #ul2 {
+            list-style-type: none;
+            font-size: xx-large;
+        }
+
+        #li2 {
+            border: 2px solid;
+            border-color: blue;
+            background-color: yellow;
+            color: #ff0000;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        #li3 {
+            border: 4px solid;
+            border-color: red;
+            background-color: aqua;
+            color: blue;
+            margin-bottom: 5px;
+        }
+
+        a {
+            margin-left: 25px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <p> Lista neordonata </p>
+    <ul id="ul1">
+        <li id="li1">Element 1 </li>
+        <li id="li1">Element 2 </li>
+        <li id="li1">Element 3 </li>
+        <li id="li1">Element 4 </li>
+        <li id="li1">Element 5 </li>
+    </ul>
+
+    <ul id="ul2">
+        <li id="li2">Element 1 </li>
+        <li id="li2">Element 2 </li>
+        <li id="li2">Element 3 </li>
+        <li id="li2">Element 4 </li>
+        <li id="li2">Element 5 </li>
+    </ul>
+    <p> Lista ordonata </p>
+    <ol id="ul2">
+
+        <li id="li3"><a href=""> Acesta este un link </a></li>
+        <li id="li3"><a href=""> Acesta este un link </a> </li>
+        <li id="li3"><a href=""> Acesta este un link </a> </li>
+        <li id="li3"><a href=""> Acesta este un link </a></li>
+        <li id="li3"><a href=""> Acesta este un link </a> </li>
+    </ol>
+    <p> Tabel </p>
+    <table cellpadding="15px">
+        <tr id="thead" align="center">
+            <td> Nr </td>
+            <td> Nume </td>
+            <td> Prenume</td>
+            <td> E-mail </td>
+            <td> Telefon </td>
+        </tr>
+        <tr class="tr1">
+            <td>1</td>
+            <td>Popescu</td>
+            <td>Alin</td>
+            <td>pop.alin@gmail.com</td>
+            <td>0756343504</td>
+        </tr>
+        <tr class="tr2">
+            <td>2</td>
+            <td>Ionescu</td>
+            <td>Alexandra</td>
+            <td>i.alex@yh.com</td>
+            <td>0734274755</td>
+        </tr>
+        <tr class="tr1">
+            <td>3</td>
+            <td>Marin</td>
+            <td>Oana</td>
+            <td>marin@yh.com</td>
+            <td>0755747556</td>
+        </tr>
+        <tr class="tr2">
+            <td>4</td>
+            <td>Morar</td>
+            <td>Maria</td>
+            <td>marria@gmail.com</td>
+            <td>0754512309</td>
+        </tr>
+        <tr class="tr1">
+            <td>5</td>
+            <td>Iacob</td>
+            <td>David</td>
+            <td>david.d@ymail.com</td>
+            <td>0755747556</td>
+        </tr>
+        <tr class="tr2">
+            <td>6</td>
+            <td>Petrache</td>
+            <td>Mihai</td>
+            <td>marria@gmail.com</td>
+            <td>0754512309</td>
+        </tr>
+        <tr>
+            <td style="color:red" align="center" colspan="5">Aceste informatii sunt confidentiale!</td>
+        </tr>
+    </table>
+    <p>Lista</p>
+
+    <form action="homework4.html" method="get">
+        Nume:<br> <input type="text" name="nume" id="n" placeholder="Scrie nume"><br>
+        Prenume: <br> <input type="text" name="prnm" id="pn" placeholder="Scrie prenume"><br>
+        E-mail: <br> <input type="text" name="e-mail" id="em" placeholder="Scrie e-mail-ul"><br>
+        Parola: <br> <input type="password" name="pass" id="pass" placeholder="Scrie parola"><br>
+        Repeta parola: <br> <input type="password" name="pass" id="pass" placeholder="Scrie parola"><br>
+        Data nasterii: <br>
+        <select name="dob-day" id="dob-day">
+            <option value="">Ziua</option>
+            <option value="">---</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="dob-month" id="dob-month">
+            <option value="">Luna</option>
+            <option value="">-----</option>
+            <option value="01">I</option>
+            <option value="02">II</option>
+            <option value="03">III</option>
+            <option value="04">IV</option>
+            <option value="05">V</option>
+            <option value="06">VI</option>
+            <option value="07">VII</option>
+            <option value="08">VIII</option>
+            <option value="09">IX</option>
+            <option value="10">X</option>
+            <option value="11">XI</option>
+            <option value="12">XII</option>
+        </select>
+        <select name="dob-year" id="dob-year">
+            <option value="">Anul</option>
+            <option value="">----</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            <option value="1990">1990</option>
+
+        </select>
+        </select><br>
+        Adauga o descriere:<br>
+        <textarea rows="10" cols="55"> </textarea> <br>
+        <input type="submit" value="Trimite datele" id="button" style="margin-left:10px">
+        <input type="reset" value="Sterge Datele" id="button" style="margin-left: 150px">
+    </form>
+
+</body>
+
+</html>
