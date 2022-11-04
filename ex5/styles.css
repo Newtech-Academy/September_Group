@@ -1,0 +1,43 @@
+.ul1 {
+    list-style-type: none;
+    color: blue;
+}
+
+.li1 {
+    display: inline;
+    font-size: 30px;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: yellow;
+    border: 1px solid red;
+    text-decoration: underline;
+}
+
+.ul2 {
+    list-style-type: none;
+    color: red;
+}
+
+.li2 {
+    font-size: 30px;
+    width: 50%;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: yellow;
+    border: 1px solid blue;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.ol1 {
+    list-style-image: url(punct.png);
+}
+
+.li3 {
+    font-size: 30px;
+    width: 60%;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: aqua;
+    border: 8px groove red;
+}

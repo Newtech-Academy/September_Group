@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EX.7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="index.html" method="get" class="f1">
+        <br>
+        <div class="d1">
+            Nume:
+            <input class="in1" type="text" name="lname" required placeholder="  Scrie numele">
+            Prenume:
+            <input class="in1" type="text" name="fname" required placeholder="  Scrie prenumele">
+            E-mail:
+            <input class="in1" type="email" name="mail" required placeholder="  Scrie e-mail-ul">
+            Parola:
+            <input class="in1" type="password" minlength="8" required name="pass" placeholder="  Scrie parola">
+            Repeta parola:
+            <input class="in1" type="password" minlength="8" required name="rpass" placeholder="  Repeta parola">
+            Data nasterii: <br>
+            <select class="sel1" required name="day">
+                <option value="">Ziua</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <!--Nu le am mai pus pe toate 😆 -->
+            </select>
+            <select class="sel1" required name="month">
+                <option value="">Luna</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select class="sel1" required name="year">
+                <option value="">Anul</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+            </select>
+            <br>
+            Adauga o descriere:
+            <textarea class="ta1" required name="description" rows="4"></textarea>
+            <input class="in2" id="sub" type="submit" value="Trimite datele">
+            <div class="empty"></div>
+            <input class="in2" id="res" type="reset" value="Sterge datele">
+        </div>
+    </form>
+</body>
+
+</html>
