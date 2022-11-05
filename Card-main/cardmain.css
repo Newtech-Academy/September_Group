@@ -1,0 +1,115 @@
+body {
+    background-color: #0d192b;
+}
+
+.d1 {
+    background-color: #14253d;
+    width: 450px;
+    height: 720px;
+    margin-top: 250px;
+    margin-left: 350px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+
+}
+
+.d2 {
+    background-image: url(images/image-equilibrium.jpg);
+    width: 85%;
+    height: 380px;
+    background-position: 35%;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+
+
+}
+
+h1 {
+    color: white;
+    margin-left: 50px;
+
+}
+
+.p1 {
+
+    color: #8bacda;
+    margin-left: 50px;
+    font-size: large;
+
+}
+
+.d3 {
+    display: inline-block;
+    margin-top: 20px;
+    color: aqua;
+    font-size: large;
+}
+
+.p2 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#img1 {
+    margin-left: 50px;
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+
+}
+
+#img2 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 170px;
+}
+
+.p3 {
+    color: #8bacda;
+    display: inline-block;
+}
+
+hr {
+    width: 85%;
+    height: 1px;
+    color: #2f415b;
+    background-color: #2f415b;
+    margin-left: 50px;
+    border-color: #2f415b;
+}
+
+/* #img3 {
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    border-image: 5px white;
+}*/
+
+.p4 {
+    color: #8bacda;
+    display: inline-block;
+    margin-bottom: 400px;
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+.p5 {
+    display: inline-block;
+    color: white;
+}
+
+.d4 {
+    background-image: url(images/image-avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 100px;
+    margin-left: 45px;
+    background-position: left;
+    background-size: 60px;
+
+
+}
