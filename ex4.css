@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+}
+.lista-orizontala{
+    list-style-type: none;
+    margin-left:0px;
+}
+.element-orizontal{
+    display: inline;
+    padding:6px;
+    color:blue;
+    text-decoration: underline;
+    background-color: yellow;
+    border:1px solid red;
+    margin: 4px;
+}
+
+.lista-verticala{
+    list-style-type: none;
+    margin-left:0px;
+}
+.element-vertical{
+    padding:6px;
+    color:red;
+    font-style: italic;
+    background-color: yellow;
+    border:1px solid blue;
+    border-radius: 6px;
+    margin: 4px;
+    width: 35%;
+}
+
+.lista-ordonata{
+    list-style-image: url(punct.png);
+    margin-left:0px;
+}
+.element-ol{
+    color:blue;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color:aqua;
+    border:3px solid red;
+    margin: 2px;
+    width: 50%;
+}

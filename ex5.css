@@ -1,0 +1,35 @@
+div{
+    border-style: outset;
+    border-color: black;
+
+}
+#tabel{
+    width:100%;
+    border: 1px white;
+}
+.cap-tabel{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.randul1{
+    background-color: white;
+}
+.randul1,
+.randul2,
+.randul3,
+.randul4,
+.randul5,
+.randul6{
+   font-style: italic;
+   padding-left: 5px;
+}
+.ultimul-rand{
+    color:red;
+    font-style: italic;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color:lightgray;
+}

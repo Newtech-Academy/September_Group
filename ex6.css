@@ -1,0 +1,40 @@
+#div1{
+    width: 400px;
+    height:450px;
+    background-color: chartreuse;
+    border-style: outset;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 4px rgb(24, 21, 21);
+}
+.formular{
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    }
+.nume,
+.prenume,
+.email,
+.parola,
+.repeta-parola{
+    width:100%;
+}
+#submit{
+    background-color: black;
+    color:chartreuse;
+    border-radius: 5px;
+    margin-right: 164px;
+    margin-top: 10px;
+    
+}
+#reset{
+    background-color: black;
+    color:chartreuse;
+    border-radius: 5px;
+}
+#ziua,
+#luna,
+#anul{
+    width:114px;
+}

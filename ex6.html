@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitiul 6</title>
+    <link rel="stylesheet" href="ex6.css">
+</head>
+<body>
+  <div id="div1">
+    <form class="formular" action="formular">
+        <label for="nume">Nume:</label> <br>
+        <input class="nume" type="text" name="nume" id="nume" required placeholder="Scrie Numele"><br>
+        <label for="prenume">Prenume:</label> <br>
+        <input class="prenume" type="text" name="prenume" id="prenume" required placeholder="Scrie Prenumele"><br>
+        <label for="email">E-mail:</label> <br>
+        <input class="email" type="email" name="email" id="email" required placeholder="Scrie E-mail"><br>
+        <label for="parola">Parola:</label> <br>
+        <input class="parola" type="password" name="parola" id="parola" required placeholder="Scrie Parola" maxlength="8"><br>  
+        <label for="repeta-parola">Repeta Parola:</label> <br>
+        <input class="repeta-parola" type="password" name="repeta-parola" id="repeta-parola" required placeholder="Repeta Parola" maxlength="8"><br>
+        <label for="data-nasterii">Data nasterii:</label><br>
+        <select id="ziua" required><br>
+        <option>Ziua</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        </select>
+        <select id="luna" required><br>
+          <option>Luna</option>
+          <option value="ianuarie">Ianuarie</option>
+          <option value="februarie">Februarie</option>
+          <option value="martie">Martie</option>
+          <option value="aprilie">Aprilie</option>
+          <option value="mai">Mai</option>
+          <option value="iunie">Iunie</option>
+          <option value="iulie">Iulie</option>
+          <option value="august">August</option>
+          <option value="septembrie">Septembrie</option>
+          <option value="octombrie">Octombrie</option>
+          <option value="noiembrie">Noiembrie</option>
+          <option value="decembrie">Decembrie</option>
+        </select>
+                <input type="number" name="anul" id="anul" min="1900" max="2022" required placeholder="Anul"><br>
+
+
+          
+        Adauga o Descriere:<br>
+    <textarea class="textarea" rows="5" cols="43" requied></textarea><br>
+    <button id="submit" type="submit" name="submit" value="Trimite datele">Trimite datele</button>
+    <button id="reset" type="reset" name="reset" value="Sterge datele">Sterge datele</button>
+      </form>
+  </div>  
+</body>
+</html>
