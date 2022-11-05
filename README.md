@@ -24,7 +24,16 @@ Code colors for music card:
 - Change - #3700ff
 - Proceed to payment - #3829e0
 - Cancel - #7280a7
-Font-family: use Georgia. 
+- Font-family: use Georgia. 
+
+Code colors for main card: 
+- Body - #0d192b
+- Container card - #14253d
+- Description - #8bacda
+- 3 days left - #8bacda
+- The line - #2f415b
+- Creation - #8bacda
+- Font-family: use Georgia. 
 
 
 ## Building your project
