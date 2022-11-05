@@ -1,4 +1,4 @@
-# Project - Card main and musci card
+# Project - Card main and music card
 
 ## Welcome! 👋
 
