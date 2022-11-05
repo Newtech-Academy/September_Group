@@ -16,13 +16,14 @@ Your task is to build out the project to the designs inside the `/design` folder
 
 You will find the picture needed in index.html file.
 
-Code colors: 
-- Love Candle section - #474747
-- Company Name - #d2d2d2
-- Description - #8d8d8d
-- Price - #474747
-- Button - #9cebd5
-
+Code colors for music card: 
+- Body - #e0e8ff
+- Description - #7280a7
+- Plan container - #f5f7ff
+- Price - #7280a7
+- Change - #3700ff
+- Proceed to payment - #3829e0
+- Cancel - #7280a7
 Font-family: use Georgia. 
 
 
