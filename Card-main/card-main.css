@@ -1,0 +1,117 @@
+body{
+    background-color: #0d192b;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:1366px;
+    height:768px;
+}
+
+.div_card{
+    background-color: #14253d;
+    width:325px;
+    height:540px;
+    border-radius: 10px;
+    padding:25px;
+    
+}
+
+.div_poza{
+    border-radius:10px;
+    background-image: url(images/image-equilibrium.jpg);
+    width:300px;
+    height:300px;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+h1{
+    color: white;
+    font: bold 22px/30px Calibri, sans-serif;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    padding-top:15px;
+}
+.div_desc{
+    color:#8bacda;
+    font-family: Calibri, sans-serif;
+    padding-left: 15px;
+}
+.div_price_term{
+padding-left: 0px;
+width: 300px;
+margin: 0px;
+display: inline-flex;
+}
+
+.div_price{
+padding-top: 15px;
+width:150px;
+margin:0px;
+border-style: none;
+text-align: left;
+color: turquoise;
+font: 17px Arial, sans-serif;
+padding-left: 10px;
+}
+
+.div_term{
+padding-top: 15px;
+width: 155px;
+text-align: right;
+color:#8bacda;
+font: 15px/19px Outfit, sans-serif;
+border-style: none;
+justify-content: center;
+display:inline-flexbox;
+
+}
+
+.div_linie{
+    margin-top: 15px;
+    width:300px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #2f415b;
+    height: 1px;
+    padding-left: 0px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.div_aut_creat{
+    margin-top: 10px;
+    width:300px;
+    height:80px;
+    /* border: 1px solid rgb(224, 241, 224); */
+    margin-left: auto;
+    margin-right: auto;
+    padding:0%;
+    display: flex;
+    align-items: center;
+}
+.div_aut{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: url(images/image-avatar.png);
+    background-size: contain;
+    border: 2px solid white;
+    
+    
+    
+}
+.div_creat{
+    width:250px;
+    height:80px;
+    text-align: center;
+    font: 19px/80px Calibri, sans-serif;
+    color: white;
+}
+
+div span{
+    color:#8bacda;
+}

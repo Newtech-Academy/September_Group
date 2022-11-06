@@ -7,10 +7,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="music.css">
   <title>Order summary card</title>
 </head>
 <body>
-
-
+<div class="div_card">
+  <!--N-am reușit să fac linia curbă de demarcație între cele două nuanțe de culoare din fundal în nici un fel. Ce am găsit pe Internet mi s-a părut mult prea avansat 
+    față de nivelul meu actual (cu funcții, cu SVG, etc. ..) așa că am ales să separ pe orizontală cele două nuanțe de culoare, cu "linear-gradient"-->
+  <h1>Order Summary</h1>
+  <center><p>You can now listen to milions of songs,
+          audiobooks, and podcasts on any device
+          anywhere you like!</p>
+  </center>
+  
+  <center><div class="div_plan">
+    <div class="div_poza"><img src="images/icon-music.svg" alt="2optimi" height="70px" width="70px"></div>
+      <div class="texte">
+        <div class="div_sus">Annual plan</div>
+        <div class="div_cent"><a href="#">Change</a></div>
+        <div class="div_jos">$59.99/year</div>
+      </div>
+    </div>
+    <form action="index.html" method="post">
+      <input type="submit" value="Proceed to Payment">
+    </form>
+    <p id="p_cancel"><a href="/cancel">Cancel Order</a></p>
+  </center>
+</div>
 </body>
 </html>
