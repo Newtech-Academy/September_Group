@@ -1,0 +1,118 @@
+body{
+    background-color:#0d192b;
+}
+
+.big{
+    background-color:#14253d;
+    margin:auto;
+    width:500px;
+    height:700px;
+   border-radius:10px;
+}
+
+
+img{
+    width:70%;
+    margin-top:20px;
+    margin-left:60px;
+    border-radius:10px;
+
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:25px;
+    margin-left:60px;
+    margin-top:30px;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:#8bacda;
+    margin-left:60px;
+    margin-right:70px;
+}
+
+.eth{
+    width:15px;
+}
+
+.eth1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aqua;
+    float:right;
+    margin-right:330px;
+    float:left;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+.eth{
+    width:15px;
+    display: inline-block;
+    
+}
+
+.peth{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:17px;
+    color:aqua;
+    display: inline-block;
+    margin-left:10px;
+  
+    
+    
+}
+
+
+.clk{
+    width:20px;
+    display: inline-block;
+}
+
+.pclk{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:17px;
+    color:#8bacda;
+    display: inline-block;
+    margin-left:10px;
+   
+}
+
+.border{
+    border-style:solid;
+    size:5px;
+    border-color:#2f415b;
+    width:90%;
+    margin:0 10px 0 15px;
+}
+
+.avatar{
+    width:35px;
+    display: inline-block;
+    border-style:solid;
+    border-radius:22px;
+    border-color:white;
+}
+
+.creation{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    display: inline-block;
+    color:#8bacda;
+    margin:0 0 0 15px;
+}
+
+.Jules{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    display: inline-block;
+    color:white;
+    margin:auto;
+}
+
