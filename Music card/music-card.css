@@ -1,0 +1,132 @@
+body{
+    background-color:#e0e8ff;
+}
+
+.big{
+    background-color:white;
+    width:25%;
+    height:800px;
+    background-position:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+}
+.up{
+    background-image:url(images/illustration-hero.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    height:200px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    
+}
+
+.div2{
+    width:400px;
+    height:300px;
+    background-position: center;
+    margin-top:15px;
+    margin-left:auto;
+    margin-right:auto;
+    box-sizing:border-box;
+}
+
+.h1{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.text{
+    margin-top:50px;
+    color:#7280a7;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    font-size:18px;
+   
+}
+
+.annual{
+    background-color:#f5f7ff;
+    margin-top:30px;
+    width:370px;
+    height:120px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+
+}
+
+.icon{
+    background-image:url(images/icon-music.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    width:100px;
+    height:50px;
+    margin-left:20px;
+    float:left;
+    margin-top:40px;
+}
+
+.plan{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight: bold;
+    text-align: top;
+    float:right top;
+    margin-top:30px;
+}
+
+.price{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#7280a7;
+
+}
+
+.change{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: top;
+    font-weight:bold;
+    font-size:13px;
+    float:right;
+}
+
+.button{
+    background-color:#3829e0;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius:10px;
+    width:350px;
+    margin-left:30px;
+    margin-top:30px;
+    
+}
+
+.cancel{
+    opacity: 0.6;
+  cursor: not-allowed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+  font-weight: bold;
+  color:rgb(38, 34, 34);
+  padding: 15px 20px;
+  text-align: center;
+    display: inline-block;
+    border:none;
+    width:350px;
+    margin-left:30px;
+    margin-top:10px;
+}
