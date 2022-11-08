@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(135deg, #5a4fca, #e0e8ff);
+    background-size: 1920px 1080px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.d1 {
+    width: 450px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.img1 {
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.d2 {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.d3 {
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 100;
+    color: #7280a7;
+}
+
+.d4 {
+    margin: 20px auto;
+    padding: 15px 0px;
+    text-align: start;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #f5f7ff;
+}
+
+.img2 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.d5 {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.sp1 {
+    font-weight: 100;
+    color: #7280a7;
+}
+
+.a1 {
+    margin-left: 60px;
+    font-size: 15px;
+    vertical-align: 17px;
+    color: #3700ff;
+    cursor: pointer;
+}
+
+.a1:hover {
+    color: #7c7c7c;
+}
+
+.a2 {
+    display: block;
+    margin: 30px 0px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px #7c7c7c;
+    background-color: #3829e0;
+}
+
+.a2:hover {
+    background-color: #7c7c7c;
+
+}
+
+.a3 {
+    display: block;
+    margin: 30px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7280a7;
+}
+
+.a3:hover {
+    color: #7c7c7c;
+}
