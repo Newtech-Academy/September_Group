@@ -1,0 +1,108 @@
+body {
+    background-color: #e0e8ff;
+}
+
+.card {
+    /*border: 1px solid red;*/
+    background-color: white;
+    width: 450px;
+    height: 650px;
+    border-radius: 25px;
+    margin-left: 700px;
+    margin-top: 150px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7280a7;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.purchase {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*border: 1px sold red;*/
+    width: 380px;
+    height: 100px;
+    background-color: #f5f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.icon {
+    margin-left: 25px;
+}
+
+#img {
+    width: 50px;
+}
+
+.price {
+    margin-right: 60px;
+}
+
+.change {
+    margin-right: 30px;
+    color: #3700ff;
+    text-decoration: underline;
+}
+
+.pay {
+    width: 380px;
+    height: 50px;
+    background-color: #3829e0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 30px;
+    filter: drop-shadow( .5em .5em .75em);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+input {
+    border: none;
+    width: 200px;
+    height: 25px;
+    background: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cancel {
+    width: 380px;
+    height: 50px;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#cancel {
+    color: #7280a7;
+}
