@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(42, 36, 36);
+}
+*{
+    font-family: Georgia sans-serif;
+}
+.div-mare{
+    background-color: #0d192b;
+    width:1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 120px;
+}
+.card{
+    background-color: #14253d;
+    width: 350px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+.image{
+    
+    position:relative;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+h1{
+    font-family: Georgia sans-serif;
+    color:white;
+    margin-left: 20px;
+}
+.descriere{
+    font-family: Georgia sans-serif;
+    color:#8bacda;
+    margin-left: 20px;
+}
+.eth{
+    display: inline-block;
+    margin-left: 20px;
+    color:#00FFF8;
+}
+.cifre-eth{
+    margin-left: 5px;
+    font-family: Georgia sans-serif;
+}
+.clock{
+    display: inline-block;
+    color:#8bacda;
+    margin-left:120px;
+}
+.text-clock{
+    margin-left: 5px;
+}
+.linie{
+    border-style: solid;
+    border-color: #2f415b;
+    background-color:  #2f415b;;
+    width: 300px;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.avatar{
+    
+    display:inline-block;
+    margin-left: 20px;  
+    }
+
+.creation{
+    display:inline-block;
+    height:30px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#8bacda;
+    margin-left: 30px;
+}
+.jules{
+    display:inline-block;
+    color:white;
+    height:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    
+}
