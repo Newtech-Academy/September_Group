@@ -6,4 +6,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #674baf;
+    font-family: 'open-sans' , sans-serif;
+}
+.header{
+    margin-top: 60px;
+    margin-left: -980px;
+    margin-bottom: 100px;
+    /* nu-mi place ca aliniez cu valori negative. cum sa fac altfel? */
+    }
+.container{
+    display: flex;
+}
+h1{
+    color: white;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    letter-spacing: 3px;
+    line-height: 44px;
+}
+p{
+    color: white;
+    width: 490px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: white;
+    color: #674baf;
+    font-family: 'open-sans' , sans-serif;
+    font-size: large;
+    margin-left: 40px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: greenyellow;
+}
+.social{
+    margin-top: 550px;
+    margin-left: -170px;
+    /* nu-mi place ca aliniez cu valori negative; cum sa fac altfel? */
+}
+a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 15px 5px 0;
+    padding: 10px;
+}
+#social1:hover{
+    background-color: #4267B2;
+}
+#social2:hover{
+    background-color: #1DA1F2;
+}
+#social3:hover{
+    background-color: #8a3ab9;
+}
+
+
 
