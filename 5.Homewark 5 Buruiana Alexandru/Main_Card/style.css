@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0d192b;
+}
+
+.card-container .card-content .header img {
+  max-width: 330px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.card-container .card-content .footer img {
+  max-width: 35px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 23px;
+  color: white;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 11px;
+  color: #8bacda;
+  max-width: 300px;
+}
+
+.description span {
+  color: #00fff8;
+  margin-left: 5px;
+}
+
+.footer span {
+  color: white;
+}
+
+.card-container {
+  max-width: 400px;
+  background-color: #14253d;
+  height: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.card-container .card-content .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container .card-content .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+}
+.card-container .card-content .description h1 {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.card-container .card-content .description .price-time {
+  display: flex;
+  justify-content: space-around;
+  width: 405px;
+  margin-top: 15px;
+}
+.card-container .card-content .description .price-time .time {
+  display: flex;
+}
+.card-container .card-content .description .price-time .price {
+  display: flex;
+}
+
+.card-container .card-content .the-line {
+  width: 340px;
+  height: 1.5px;
+  background-color: #2f415b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-container .card-content .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+}/*# sourceMappingURL=style.css.map */
