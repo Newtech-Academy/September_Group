@@ -1,9 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #674baf;
+}
+
+.container {
+    width: 100%;
+    height: 1080px;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+.img1 {
+    width: 470px;
+    padding: 60px 0px 0px 250px;
+    margin-left: 35px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    margin-right: 70px;
+}
+
+.text {
+    height: 500px;
+    color: white;
+    padding-left: 10px;
+}
+
+.imag2 {
+    padding-right: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 40px 0px;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 17px;
+    padding: 0px 0px 30px;
+    font-family: 'Open Sans';
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #674baf;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #674baf;
+    color: white;
+}
+
+.footer {
+    float: right;
+    margin-right: 315px;
+    padding-top: 25px;
+}
+
+a {
+    color: white;
+}
+
+i {
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+i:hover {
+    font-size: 25px;
+    color: cornsilk;
+    border-color: cornsilk;
+}
