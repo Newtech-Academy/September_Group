@@ -1,0 +1,39 @@
+.lista1 li{
+    display: inline;
+    text-decoration: underline;
+    color: #0066ff;
+    border: 1px solid rgb(244,0,0);
+    background-color: #ffff00;
+    padding: 8px;
+    padding-bottom: 8px;
+    margin-right: 3px;
+    font-weight: 600;
+}
+
+.lista2 li{
+    color: rgb(244, 0,0);
+    border: 1px solid #000000;
+    background-color: #ffff00;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 3px;
+    font-style: italic;
+    border-radius: 5px;
+    font-family: garamond;
+    font-size: large;
+    display: block;
+    width: 350px;
+}
+
+.lista3{
+    list-style-image: url('punct.png');
+}
+
+.lista3 li{
+    border: 3px solid #800000;
+    margin-bottom: 5px;
+    background-color:#80dfff ;
+    width: 450px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}

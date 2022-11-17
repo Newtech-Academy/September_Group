@@ -1,0 +1,34 @@
+.tabel{
+border: 1px solid #000;
+width: 90%;
+}
+
+td{
+    font-style: italic;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px 20px;
+}
+
+.tabel th{
+    background-color: #000;
+    color: #fff;  
+}
+
+tr:nth-child(even){
+    background-color: #dbdada;
+}
+
+.merged td{
+    color:  rgb(255, 0, 0);
+    text-align: center;
+}
+
+.dunga{
+    border-right: 1px solid #fff;
+}
