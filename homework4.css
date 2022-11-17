@@ -1,0 +1,221 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:inline-block;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+div{
+    width:80px;
+    padding: 5px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    background-color: yellow;
+   
+}
+
+ul.ul1{
+    list-style-type: none;
+    
+}
+
+li.li1{
+    text-align: left;
+    font-style: italic;
+    color: red;
+    text-decoration: none;
+    display:contents;
+    
+}
+
+div.div1{
+    width:50%;
+    padding: 5px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-bottom: 5px;
+   
+}
+
+ol{
+   list-style-image: url("../September_Group/punct.png");
+
+
+ 
+
+}
+
+div.div2{
+    width:60%;
+    padding: 5px;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(7, 208, 249);
+    border-radius: 0px;
+    margin-bottom: 5px;
+
+}
+
+li.li2 {
+    text-align: left;
+    font-style:normal;
+    color: blue;
+    text-decoration: none;
+    display:list-item;
+
+
+}
+
+table{
+        width: 100%;
+        margin: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        
+}
+
+tr{
+        height: 30px;
+}
+
+.tr1{
+    background-color: black;
+}
+
+.tr2{
+    background-color: white;
+    
+}
+   
+.tr3{
+    background-color: grey;
+}
+
+
+td{
+    text-align:left;
+    font-style:italic;
+    padding-left: 15px;
+}
+
+.td1{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0px;
+}
+
+.td2{
+    color:red;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0px;
+}
+
+.container{
+    width: 35%;
+    background: greenyellow;
+    padding:25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: -2px -2px 6px 6px black;
+}
+
+.details {
+    padding:10px 0px;
+    border: none;
+    background: none;
+    width: auto;
+}
+
+.input-box{
+    width: auto;
+    background: none;
+    border: none;
+}
+
+.input-box input {
+    height: 28px;
+    width: 95%;
+    padding: 0px 10px;
+    border-color:rgb(108, 230, 108);
+}
+
+.Data-Nasterii{
+    padding:10px 0px;
+    background: none;
+    width: auto;
+    border: none;
+
+}
+.pozitie{
+    padding: 10px 0px;
+    background: none;
+    width: auto;
+    border: none;
+}
+
+.calendar{
+    display: inline;
+    border: none;
+    background: none;
+}
+
+.calendar select{
+    width: 31%;
+    height: 30px;
+    border-color:rgb(108, 230, 108);
+    
+}
+
+.descriere{ 
+    color:black;
+    border: none;
+    background: none;
+    width: auto;
+       
+}
+.area{ 
+     padding: 10px 0px;
+     background: none;
+    
+     border: none;
+}
+
+.butoane{
+    display: flex;
+    justify-content:space-between;
+    background: none;
+    border: none;
+    width: 80%;
+    
+
+    
+}
+.butoane input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+        
+}
+
+.butoane div{
+    background: none;
+    border: none;
+    
+}
