@@ -6,4 +6,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color: rgb(104, 87, 168);
+}
+div.logo{
+    margin: 50px 0px 80px 50px;
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 40px;
+}
+div.poza{
+    margin: 10px 20px 40px 50px;
+    background-image: url(images/illustration-mockups.svg);
+    width:700px;
+    height: 500px;
+    position: absolute;
+}
+div.texte{
+/* border: 1px solid yellow; */
+width: 420px;
+height: 300px;
+position: relative;
+left: 750px;
+margin: 140px 0px 80px 70px;
+}
 
+h1{
+    color:white;
+    text-transform: capitalize;
+    font-family: Open sans;
+    margin-right: 30px;
+}
+
+p{
+    color: white;
+    font-family: Poppins;
+    margin-top: 40px;
+    font-size:smaller;
+}
+
+input{
+    background-color: white;
+    color:rgb(104, 87, 168);
+    height: 50px;
+    width: 160px;
+    font-family: Poppins;
+    margin-top: 40px;
+    border-radius: 25px;
+    border:none;
+    box-shadow: 3px 3px 4px rgb(85, 11, 100);
+    font-size:medium ;
+}
+
+div.sm{
+    text-align: right;
+    margin: 230px 0px 0px 0px;
+   }
+a{
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    
+}
