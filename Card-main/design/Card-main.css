@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #0d192b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 275px;
+    background-color: #14253d;
+    border-radius: 20px;
+    padding: 25px;
+}
+.equilibrium{
+    position: relative;
+}
+.equilibrium img{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+.title {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 0px 20px 0px;
+}
+.description {
+    color: #8bacda;
+    margin-bottom: 15px;
+}
+.price {
+    color: rgb(118, 236, 252);
+    float: left;
+}
+.days, .days img{
+    float: right;
+}
+.days {
+    color: #8bacda;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.price, .days{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 20px;
+}
+.price img{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.price img, .days img {
+    margin-right: 5px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.avatar img{
+    border: 2px solid white;
+    border-radius: 52%;
+    max-width: 36px;
+    height: auto;
+    margin-right: 15px;
+    float: left;
+}
+.name{
+    color: white;
+    padding-left: 3px;
+    display: flex;
+    float: right;
+}
+.creation{
+    color:  #8bacda;
+}
+.line{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 2px;
+    background-color:  #2f415b;
+}
+
