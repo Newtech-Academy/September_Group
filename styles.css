@@ -1,9 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body
+{
+    background-color: #000;
+}
+#div-body
+{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    background-color: #674baf;
+}
+#background-pic
+{
+    position: absolute;
+}
+#logo-pic
+{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+}
+#body-pic
+{
+    position: absolute;
+    right: 900px;
+    top: 200px;
+    height: 420px;
+    width: 650px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset 0px 50px 0px 0px #04242d;
+}
+#div-text
+{
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+    max-width: 600px;
+    max-height: 300px;
+}
+#title
+{
+    font-size: 35px;
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    width: 380px;
+}
+#description
+{
+    font-family: Poppins;
+    font-size: 17px;
+    color: white;
+    width: 530px;
+    line-height: 25px;
+    margin: 20px 0px 35px 0px;
+}
+button
+{
+    font-family: Poppins;
+    font-size: 15px;
+    color: #674baf;
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px black;
+}
+a
+{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    top: 800px;
+}
+#facebook
+{
+    position: absolute;
+    top: 750px;
+    left: 1450px;
+}
+#twiter
+{
+    position: absolute;
+    top: 750px;
+    left: 1500px;
+}
+#insta
+{
+    position: absolute;
+    top: 750px;
+    left: 1550px;
+}
