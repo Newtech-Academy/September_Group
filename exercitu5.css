@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+[colspan]{
+    color: red;
+    text-align: center;
+    front-style:italic;
+}
+td{
+font-variant: normal;
+front-style:italic;
+padding: 10px;
+}
+tr:nth-child(odd){
+    background-color:rgb(225, 223, 223)
+}
+tr:hover{
+    background-color: #d2d0cddf;
+}

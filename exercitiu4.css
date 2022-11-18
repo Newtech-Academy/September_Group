@@ -1,0 +1,30 @@
+.ul1{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.li1{
+    border: 1px red;
+    color: blue;
+    text-decoration: underline;
+    display: inline;
+    background-color: yellow;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+.ul2{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.li2{
+    border: 1px blue;
+    color: red;
+    background-color: yellow;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+}

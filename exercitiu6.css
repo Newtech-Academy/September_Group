@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+form{
+    background-color: greenyellow;
+    text-align: left;
+    border-radius: 5px;
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+input{
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%px;   
+}
+button{
+    background-color:black;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;   
+    width: 50%;
+
+}
+button:hover{background-color: grey;}
+.textare{width: 100%;}
+.reset{margin-left: 300px;   
+}
+
