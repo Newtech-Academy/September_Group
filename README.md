@@ -14,7 +14,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your task is to build out the project to the design inside the `/design` folder. You will find the desktop version of the design. 
 
-You will find the picture needed in the /images folder.
+You will find the picture needed in the `/images` folder.
 
 Code colors: 
 - "All your file" area and the text below - #070439
