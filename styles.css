@@ -11,7 +11,7 @@ body{
     background-color: rgb(104, 87, 168);
 }
 div.logo{
-    margin: 50px 0px 80px 50px;
+    margin: 50px 0px 40px 50px;
     background-image: url(images/logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,11 +19,13 @@ div.logo{
     height: 40px;
 }
 div.poza{
-    margin: 10px 20px 40px 50px;
+    margin: 0px 20px 40px 0px;
     background-image: url(images/illustration-mockups.svg);
     width:700px;
     height: 500px;
     position: absolute;
+    left: 50px;
+    /* top: 10px; */
 }
 div.texte{
 /* border: 1px solid yellow; */
@@ -31,7 +33,8 @@ width: 420px;
 height: 300px;
 position: relative;
 left: 750px;
-margin: 140px 0px 80px 70px;
+margin: 0px 0px 80px 70px;
+top: 80px;
 }
 
 h1{
