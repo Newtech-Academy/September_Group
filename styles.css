@@ -7,3 +7,74 @@
     box-sizing: border-box;
 }
 
+body{
+   
+    background-color: black;
+}
+
+.container{
+    margin-top: 90px;
+    margin-left: 300px;
+    background-image: url(../September_Group/images/bg-desktop.svg);
+    background-color: #674baf;
+    border-style: solid;
+    width: 1318px;
+    height: 800px;
+}
+
+h1{
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+p{
+    padding-top: 15px;
+    width:460px;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+img{
+    margin-left: 8.3%;
+    margin-top: 6%;
+}
+
+*#div22{
+    float:left;
+}
+
+#div23{
+    float: left;
+    padding-left: 7%;
+    padding-top: 8%;
+}
+
+#div3{
+   margin-top: 45%;
+   margin-left: 90%;
+   float: none;
+}
+
+a{
+    color: white;
+}
+
+.dot{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1em;
+    display: inline;
+}
+
+.button{
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 3px 3px 1em black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #674baf;
+}
