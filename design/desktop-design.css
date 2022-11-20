@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: rgb(103,75,177) url("../images/bg-desktop.svg") no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    color: white;
+}
+.middle{
+    display: inline-flex;
+    align-items: center;
+}
+.logo, .middle{
+    display: flex;
+    margin: 100px 0px 0px 225px;
+}
+.title, .description, .register{
+    flex-wrap: wrap;
+}
+.text{
+    padding: 50px;
+}
+.title{
+    padding-bottom: 20px;
+}
+.description{
+    color: rgb(220, 210, 228);
+}
+.icons i{
+    color: white;
+    width: 50px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    align-content: space-between;
+    margin: 5px;
+}
+.icons{
+    margin: 100px 460px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#register{
+    background-color: white;
+    color: rgb(103,75,177);
+    font-size: medium;
+    border: 1px;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 10px black;
+}
+#register:hover{
+    opacity: 0.9;
+    color: black;
+}
+.icons i:hover{
+    color: pink;
+}
