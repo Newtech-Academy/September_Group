@@ -1,0 +1,109 @@
+// DEFAULT SETUP
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// FONT SETUP
+h1{
+    font-size: 33px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+}
+
+// BODY SETUP
+body{
+    background-image: url(./images/bg.svg);
+    background-color: #674baf;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// CONTENT CONTAINER STYLE
+.content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-container img{
+    max-width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+// HEADER STYLE
+.header{
+    margin: 50px 0px;
+    display: flex;
+    width: 85%;
+}
+.header img{
+    display: flex;
+    justify-content: start;
+    max-width: 200px;
+}
+
+// DESCRIPTION STYLE
+.description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 80px;
+}
+.description *{
+    margin: 15px 0px;
+}
+.description h1,p{
+    max-width: 450px;
+}
+.description button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #674baf;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.description button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+// FOOTER STYLE
+.footer{
+    display: flex;
+    width: 85%;
+    justify-content: end;
+}
+.footer img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    filter: invert(100%);
+}
+.footer .icon-social{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.footer .icon-social:hover{
+    background-color: white;
+    img{
+        filter: invert(0%);
+    }
+}
+
+
