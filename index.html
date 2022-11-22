@@ -5,16 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo landing page with two column layout</title>
-
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-    <!--Social media icons-->
-    <i class="uil uil-facebook-f"></i>
-    <i class="uil uil-twitter"></i>
-    <i class="uil uil-instagram"></i>
-
+    <div id="page">
+        <!-- Pentru intreaga pagina -->
+        <div id="header" class="mrg_left">
+            <img src="images/logo.svg" alt="logo">
+            <div id="menu">
+                <a href="#" target="_blanc">Features</a>
+                <a href="#" target="_blanc">Team</a>
+                <a href="#" target="_blanc">Sign In</a>
+            </div>
+        </div>
+        <div id="section1" class="mrg_left">
+        <!-- Pentru partea de sus cu textul "All your.." si poza -->
+            <div id="sect1_txt_inp">
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and colaborate with friends, family, and co-workers.</p>
+                <!-- <div id="inp"> -->
+                    <form id="form_email" action="MAILTO:office@fylo.com" method="post" enctype="text/plain">
+                        <input id="email" type="email" placeholder="Enter your email...">
+                        <input class="button_get" type="submit" value="Get Started">
+                    </form>
+                <!-- </div> -->
+            </div>
+            <div id="sect1_photo"></div>
+        </div>
+        <div id="section2">
+            <!-- Pentru partea a doua cu "stay productive", card si poza-->
+            <div id="curve"></div>
+            <div id="sect2_bg">
+                <div id="sect2_txt_card" class="mrg_left">
+                    <h1>Stay productive, wherever you are</h1>
+                    <p>Never let location be an issue when accessing files. Fylo has you covered for all of your file storage needs.</p>
+                    <p>Securely share files and folders with friends, familiy and colleagues for live collaboration. No email attachments required!</p>
+                    <a href="Fylo_works" target="_blank"><p id="link_Fylo_works">See how Fylo works     <img src="images/icon-arrow.svg" align="center"></p></a>
+                    <div id="card">
+                        <img src="images/icon-quotes.svg">
+                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div id="test">
+                            <img src="images/avatar-testimonial.jpg">
+                            <div id="test_texts">
+                                <h3>Kyle Burton</h3>
+                                <p>Founder & CEO, Huddle</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div id="sect2_photo"></div>
+            </div>
+        </div>
+        <div id="section3">
+            <!-- Pentru "Get early..." -->
+            <div id="sect3_txts" class="mrg_left">
+                <h2>Get early access today</h2>
+                <p>It only takes a minute to sign up and our free starter tier is extremely generous. I you have any questions, our support team would be happy to help you.</p>
+            </div>
+            <form id="form_email2" action="MAILTO:office@fylo.com" method="post" enctype="text/plain">
+                <input id="email2" type="email" placeholder="email@example.com">
+                <input id="gsff" class="button_get" type="submit" value="Get Started For Free">
+            </form>
+        </div>
+        <div id="footer">
+            <img src="images/logo-white.svg" alt="white_logo"/>
+            <div id="footer_lists">
+                <ul type="none">
+                    <li><img src="images/icon-phone.svg" align="center" alt="icon phone"><span class="phone_email">Phone: +1-543-123-4567</span></li>
+                    <li><img src="images/icon-email.svg" align="center" alt="icon email"><span class="phone_email">example@fylo.com</span></li>
+                </ul>
+                <ul class="foot_list_mrg_lft" type="none">
+                    <li><span class="phone_email"><a href="about_us" target="_blanc">About us</a></span></li>
+                    <li><span class="phone_email"><a href="jobs" target="_blanc">Jobs</a></span></li>
+                    <li><span class="phone_email"><a href="press" target="_blanc">Press</a></span></li>
+                    <li><span class="phone_email"><a href="blog" target="_blanc">Blog</a></span></li>
+                </ul>
+                <ul class="foot_list_mrg_lft" type="none">
+                    <li><span class="phone_email"><a href="contact_us" target="_blanc">Contact us</a></span></li>
+                    <li><span class="phone_email"><a href="terms" target="_blanc">Terms</a></span></li>
+                    <li><span class="phone_email"><a href="privacy" target="_blanc">Privacy</a></span></li>
+                </ul>
+                <div class="foot_list_mrg_lft">
+                    <a class="sm" href="facebook" target="_blanc"><i class="uil uil-facebook-f"></i></a>
+                    <a class="sm" href="twitter" target="_blanc"><i class="uil uil-twitter"></i></a>
+                    <a class="sm" href="instagram" target="_blanc"><i class="uil uil-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
