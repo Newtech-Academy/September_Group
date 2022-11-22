@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 150px 30px 150px;
+}
+.header img{
+    width: fit-content;
+    height: fit-content;
+
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header li{
+    padding-left: 40px;
+    color: black;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+}
+.description-text{
+    margin: 100px 150px 200px 150px;
+}
+.description-text h1, p, form{
+    padding-bottom: 50px;
+}
+.email1{
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #585989;
+    margin: 0 10px 10px 0;
+}
+.email1, .email2 ::placeholder{
+    opacity: 0.3;
+}
+.start1{
+    width: 180px;
+    height: 40px;
+    background-color: #3065f8;
+    color:white;
+    border: 0;
+
+}
+.description-image img{
+    width: 800px;
+    height: 500px;
+    padding-left: 90px;
+}
+.bg-curve{
+    background: url(../images/bg-curve-desktop.svg) center/cover;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 50px;
+}
+.testimonial{
+    background: #f6f6fe;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.testimonial-text{
+    margin: 0px 150px 50px 150px;
+}
+.testimonial-text h1, p, a{
+    padding-bottom: 10px;
+}
+.illustration-2 img{
+    width: 800px;
+    height: 600px;
+    float: right;
+}
+.fylo-works{
+    color: #3c9f8f;
+    border-bottom: 1px solid #3c9f8f;
+    width: 166.5px;
+}
+.fylo-works a{
+    color: #3c9f8f;
+}
+.card{
+    margin: 0px 50px 50px 150px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    width: 400px;
+    padding: 20px;
+    color: #070439;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 30px;
+    height: fit-content;
+}
+.kyle-description{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 11px;
+    opacity: 80%;
+}
+.card-avatar{
+    height: fit-content;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0;
+}
+.kyle_burton{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.function{
+    font-weight: normal;
+}
+.sign_up{
+    background-color: #585989;
+    display: flex;
+    flex-direction: row;
+}
+.sign_up-text, .sign_up-form{
+    margin: 100px 0px 100px 150px;
+}
+.sign_up-text h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.sign_up-text p{
+    color: white;
+}
+.email2{
+    width: 380px;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #585989;
+}
+.start2{
+    width: 180px;
+    height: 40px;
+    background-color: #3065f8;
+    color:white;
+    border: 0;
+    margin:10px 0 0 0;
+}
+.footer{
+    background: #070439;
+    display: flex;
+}
+.contact{
+    margin: 150px 250px 100px 150px;
+    line-height: 40px;
+}
+.icon-phone, .icon-email{
+    padding-right: 15px;
+}
+.footer_list1, .footer_list2, .social-media{
+    width: 20%;
+    margin: 204px 0 40px 0;
+    line-height: 40px;
+}
+.footer, a, li, i{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.footer a:hover, .challenge a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.social-media i{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 1px;
+    padding: 5px;
+    align-items: right;
+}
+.social-media i:hover{
+    color: #7ca5ff;
+    border-color: #7ca5ff;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.challenge{
+    background-color: #070439;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.challenge a{
+    color: #585989;
+}
+.card:hover, .start1:hover, .start2:hover{
+    opacity: 0.7;
+}
