@@ -1,9 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+body{
+    background-color: #674baf;
+    background-image: url(bg-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.huddle{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    
+    top: 50px;
+    left: 50px;
+    background-image: url(logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.windows{
+    position: absolute;
+    width: 800px;
+    height: 545px;
+    top: 180px;
+    left: 50px;
+    background-image: url(illustration-mockups.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text{
+    position: absolute;
+    width: 800px;
+    height: 545px;
+    top: 250px;
+    left: 870px;
+    font-family: poppins;
+    }
+
+.titlu{
+    width: 650px;
+    height: 120px;
+    padding: 25px 0 0 15px;
+    color: #fff;
+    line-height: 1.5;
+    font-stretch: expanded;
+}
+
+.paragraf{
+    width: 650px;
+    height: 70px; 
+    padding-left: 15px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 12px
+}
+
+.buton{
+    width: 130px;
+    height: 40px;
+    border: 1px #fff solid;
+    margin-top: 25px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: #674baf;
+    }
+
+.media{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook, .twitter,.instagram{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    align-items: center;
+    padding: 5px;
+} 
