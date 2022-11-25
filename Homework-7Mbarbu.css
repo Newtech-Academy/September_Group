@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+ body{
+    font-weight: 400px;
+    font-size: 16px
+}
+
+.div1{
+    padding-left: 20px;
+    margin: 40px 20px 20px 40px;
+}
+.text1{
+    text-align: right;
+    margin-right:40px;
+    padding-right: 40px;
+    word-spacing: 30px;
+}
+ul{
+   list-style-type: none; 
+   margin-top: -20px;
+	 }
+li {
+	display:inline;
+}
+#h1{
+    font-family: 'Gill Sans',sans-serif;
+    margin-top: 150px;
+    font-size: 30px;
+    color: #070439;
+}
+.p1{
+    font-family: 'Gill Sans',sans-serif;
+    color:  #070439;
+    margin-top: 20px;
+}
+.illustration1 img{
+    float: right;
+    margin-right: 50px;
+    padding-right: 60px;
+    margin-top: -250px;
+}
+.email1{
+    border-color: #585989;
+    margin-top: 30px;
+    width: 8cm;
+    height: 1cm;
+    border-radius: 3px;
+}
+.started{
+    box-shadow: #585989 1px 1px 0px 0px ;
+    background-color:#3065f8;
+    text-align: center;
+    color: aliceblue;
+    width: 4cm; 
+    height: 1cm;
+    margin-left: 16px;
+    border-radius: 3px;
+}
+.div2{
+     background-image:url("images/bg-curve-desktop.svg");
+     background-repeat: no-repeat;
+     background-size: 400% 500px;
+     font-family: 'Gill Sans',sans-serif;
+    }   
+#h2{ 
+    font-family: 'Gill Sans',sans-serif;
+    font-size: 30px;
+    margin-top: 450px;
+    margin-left:40px;
+    color:#070439;
+    }
+.p2{
+    margin: 40px 0 0 40px;
+    color:  #070439;
+}
+.p3{ margin: 20px 0 20px 40px;
+    color: #070439;
+}
+.p4{
+   text-decoration: #3c9f8f;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.p4 a{
+    color: #3c9f8f;
+}
+.p4 img{
+    margin-left: 3px;
+}
+hr{
+    border-top: 2px solid #3c9f8f; 
+    width: 4.5cm;
+    margin-left: 40px;
+ }
+ .illustration2 img{
+    float: right;
+    margin-right: 50px;
+    padding-right: 60px;
+    margin-top: -250px;
+}
+.card{
+    font-family: 'Gill Sans',sans-serif;
+    margin-left: 40px;
+    margin-top: 50px;
+    max-width: 340px;
+    max-height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+.card img{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.text{
+    color:  #070439;
+    text-align:inherit;
+    margin: 15px 15px 15px 15px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: 45px;
+}
+.name{
+    font-family: 'Gill Sans',sans-serif;
+    color:  #070439;
+    margin-left: 70px;
+    margin-top: -100px;
+    padding: 10px;
+}
+.ceo{
+    margin-left: 70px;
+    margin-top: -10px;
+    padding: 10px;
+}
+.div3{
+    background-color:#585989 ;
+    background-size: contain;
+    font-family:'Gill Sans',sans-serif;
+    color: aliceblue;
+    max-height: fit-content;
+}
+.h3{
+    color: azure;
+    margin-top: 200px;
+    padding-top: 100px;
+    margin-left: 40px;
+    word-spacing: 5px;
+}
+.p5{
+   color: aliceblue;
+   padding-bottom: 100px;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+.email{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+.send{
+   width: 8cm;
+   height: 1cm;
+   border-radius: 3px;
+   
+}
+.b2{
+    box-shadow: #585989 1px 1px 0px 0px ;
+    background-color:#3065f8;
+    text-align: center;
+    color: aliceblue;
+    width: 4cm; 
+    height: 1cm;
+    margin-top: 20px;
+}
+
+.div4{
+    background-color: #070439;
+    max-width: auto;
+    max-height: auto;
+    font-family:'Gill Sans',sans-serif;
+    color: aliceblue;  
+}
+.div4 img{ 
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.date{
+   display: flex;
+   flex-direction: column;
+   max-width: 800px;
+   margin-left: 400px;
+   margin-top: -90px;
+   text-justify: inter-cluster;
+}
+
+
+.about{
+    color: aliceblue;
+   margin-left: 150px;
+    margin-right: 30px;
+}
+.jobs{
+    color: aliceblue;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.press{
+    color: aliceblue;
+    margin-left: 150px; 
+    margin-right: 30px;
+    margin-top: 40px;
+    
+}
+.blog{
+     color: aliceblue;
+    margin-left: 150px; 
+    margin-right: 30px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.date2{ display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.contact{
+    color: aliceblue;
+    margin-left: 350px; 
+}
+.terms{
+    color: aliceblue;
+    margin-left: 1px;
+}
+.privacy{
+    color: aliceblue;
+    margin-left: 350px;
+}
+
+    
+
+
+    
+    
+
+
+
+
