@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 6</title>
+    <link rel="stylesheet" href="ex6.css">
+</head>
+<body>
+    <div class="formuri">
+        <form action="ex6 PV.html">
+          <label class="etichete" for="nume">Nume:</label>
+          <input class="campuri" type="text" id="nume" name="nume" placeholder="Scrie Numele">
+          <label class="etichete"for="lname">Prenume:</label>
+          <input class="campuri" type="text" id="prenume" name="prenume" placeholder="Scrie prenumele">
+          <label class="etichete"for="E-mail">E-mail:</label>
+          <input class="campuri" type="email" id="mail" name="mail" placeholder="Scrie e-mail-ul">
+          <label class="etichete"for="parola">Parola:</label>
+          <input class="campuri"type="password" id="parola" name="parola" placeholder="Scrie parola">
+          <label class="etichete"for="repass">Repeta Parola:</label><br>
+          <input class="campuri" type="password" id="reppass" name="reppass" placeholder="Repeta Parola">
+          <form action="ex6 PV.html" method="get">
+            <label class="etichete"for="data nasterii"> Data Nasterii:</label><br>
+            <select class="campurimici" name="ziua">
+            <option value="ziua">Ziua</option>
+            </select>
+            <select class="campurimici" name="luna">
+            <option value="luna">Luna</option>
+            </select>
+            <select class="campurimici" name="anul">
+            <option value="anul">Anul</option>
+            </select>
+           <label class="etichete" for="descriere"> Adauga o Descriere:</label>
+           <textarea id="descriere" name="descriere" rows="6" cols="54"></textarea>
+           <input class="trimite" type="submit" value="Trimite datele">
+           <input class="sterge" type="reset" value="Sterge datele">
+           <br>
+           <br>
+        </form> 
+        </div>
+    
+</body>
+</html>

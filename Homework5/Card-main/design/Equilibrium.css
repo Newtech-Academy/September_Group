@@ -1,0 +1,80 @@
+body{
+    background-color: #0d192b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg{
+    background-color: #14253d;
+    width: 25%;
+    height: 700px;
+    border-radius: 6px;
+    margin: 150px 650px;
+
+}
+.cub{
+    width: 85%;
+    height: 350px;
+    margin: 30px 30px 10px 30px;
+    border-radius: 6px;
+
+}
+h2{
+    color: white;
+    margin-left:30px ;
+}
+.text{
+    margin-left:30px ;
+    color: #8bacda;
+}
+
+ .description{
+    display: flex;
+    align-items:center; 
+    margin-top: 5px;
+} 
+.eth{
+    margin-left: 30px;
+    display: flex;
+    align-items:center; 
+}
+.eth1{
+    color:cyan;
+
+}
+.clock{
+    margin-left:220px ;
+    display: flex;
+    align-items:center; 
+}
+.clock1{
+    color: #8bacda;
+    
+}
+hr{
+    border: 1px solid #8bacda;
+    width: 85%;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items:center; 
+}
+.creator{
+    color: #8bacda;
+    display: flex;
+    align-items:center; 
+    padding: 15px 30px ;
+}
+.creator1{
+    padding-left: 35px;
+}
+.name{
+    color: white;
+    text-decoration: none;
+}
+.avatar{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 55px;
+   
+}
+
+    
