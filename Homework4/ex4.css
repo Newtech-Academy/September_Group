@@ -1,0 +1,41 @@
+.ul1{
+    list-style-type:none;
+    
+}
+
+.el1{
+    font-size: 2em;
+    border: 1px solid red;
+    background-color: yellow;
+    display: inline;
+    margin: 2px 2px;
+}
+a{
+    padding: 15px 15px;
+}
+
+.ul2{
+    list-style-type: none;
+}
+.el2{
+    color: red;
+    font-size: 2em;
+    border: 1px solid blue;
+    background-color: yellow;
+    border-radius: 4px;
+    width: 40%;
+    margin: 10px;
+    padding: 15px 15px;
+}
+
+ol{
+    list-style-image: url(punct.png);
+}
+.el3{
+    font-size: 2em;
+    background-color: cyan;
+    border: 2px solid red;
+    width: 50%;
+    margin: 5px 0 5px 10px;
+
+}
