@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #674baf;
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:"Open Sans";
+    font-size: 24px;
+
+}
+
+.logo{
+    margin: 80px 80px;
+}
+.image{
+    margin-left: 80px;
+    display: inline-block;
+    margin-bottom: 400px;
+    height: 506;
+    width:709;
+    display: inline-block;
+}
+.text{
+    width:40% ;
+    height: 506;
+    color: white;
+    margin:0 0 0 40px;
+    display: inline-block;
+}
+p{ margin:25px 0 20px 0;}
+
+input{
+    width:180px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color:#674baf ;
+    font-size: 18px;
+    box-shadow: 10px 5px 5px rgb(73, 71, 71);
+}
+.button{
+   margin: 0 0 150px 0;
+}
+i{
+    color:white;
+    border:2px solid white;
+    border-radius: 50%;
+    font-size: 35px;
+    margin:0 5px;
+    position: relative;
+}
+.icons{
+    position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+i:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
