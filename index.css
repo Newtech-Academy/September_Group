@@ -7,9 +7,278 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 body{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
+}
+.logo
+{
+    margin: 35px 0px 0px 40px;
+}
+#div-menu
+{
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin: 40px 40px 0px 0px;
+}
+#menu-list
+{
+    list-style: none;
+    font-family: Raleway;
+    color: rgb(95, 94, 94);
+    font-size: 15px;
+}
+#menu-list li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+#div-section1
+{
+    width: 90%;
+    margin: 120px 0px 0px 60px;
+    display: flex;
+    flex-direction: row;
+}
+#s1-text-div
+{
+   width: 45%;
+   margin-top: 40px;
+}
+.div-illustrations
+{
+    width: 40%;
+    margin-left: 75px;
+}
+.headers
+{
+    font-family: Raleway;
+    margin-bottom: 15px;
+    color: #070439;
+    
+}
+.descriptions
+{
+    font-family: Raleway;
+    margin-bottom: 15px;
+    color: #070439;
+    font-size: 15px;
+}
+#email1
+{
+    height: 30px;
+    width: 55%;
+    font-family: Raleway;
+    font-size: 12px;
+    color: #585989;
+    padding-left: 10px;
+
+}
+#button1
+{
+    height: 30px;
+    width: 35%;
+    background-color: #3065f8;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px darkgrey;
+    font-family: Raleway;
+    font-size: 12px;
+}
+.illustrations
+{
+   height: 370px;
+   width: 480px;   
+}
+#curve
+{
+    width: 100%;
+    margin-top: 80px;
+}
+#div-section2
+{
+    background-color: #f6f6fe;
+    height: 670px;
+    margin-top: -10px;
+    padding-left: 60px;
+}
+#s2-row-allign
+{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+#s2-text-div
+{
+    width: 45%;
+}
+#green-arrow-text
+{
+    width: 31%;
+    font-family: Raleway;
+    font-size: 14px;
+    color: #3c9f8f;
+    border-bottom: 0.7px solid #3c9f8f;
+    padding-bottom: 5px;
+}
+#s2-testimonial-div
+{
+    background-color: white;
+    height: 220px;
+    width: 30%;
+    margin-top: -80px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030
+}
+#testimonial-p
+{
+    margin: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #070439;
+}
+#quotes
+{
+    margin: 20px 0px 0px 20px;
+    height: 14px;
+}
+#avatar-div
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#avatar
+{
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 35px;
+}
+#kyle-founder
+{
+    margin-top: -10px;
+    margin: 0px 0px 0px 10px;
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: 550;
+    color: #070439;
+}
+#founder
+{
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: 400;
+    color: #070439;
+}
+#div-section3
+{
+    padding: 80px 0px 70px 50px;
+    background-color: #585989;
+    display: flex;
+    flex-direction: row;
+}
+#s3-text-div
+{
+    width: 37%;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+}
+#s3-form-div
+{
+    width: 63%;
+    text-align: right;
+}
+#form2
+{
+    text-align: left;
+    margin-left: 130px;
+}
+#s3-text-div p
+{
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 21px;
+}
+#email2
+{
+    height: 37px;
+    width: 70%;
+    font-family: Raleway;
+    font-size: 11px;
+    color: #58598979;
+    padding-left: 10px;
+}
+#button2
+{
+    height: 40px;
+    width: 28%;
+    background-color: #3065f8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0.8px 0.8px 5px rgba(30, 29, 29, 0.332);
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 15px;
+}
+#div-footer
+{
+    background-color: #070439;
+    color: white;
+    padding: 110px 0px 100px 60px;
+    font-family: Raleway;
+    font-size: 15px;
+}
+#logo-footer
+{
+    height: 40px;
+    margin-bottom: 10px;
+}
+#footer-row-allign
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#contact p
+{
+    margin-top: 15px;
+}
+#contact img
+{
+    height: 15px;
+    margin-right: 15px;
+}
+.footer-links
+{
+    margin-left: -30px;
+}
+.footer-links ul
+{
+    list-style: none;
+}
+.footer-links li
+{
+    margin-bottom: 15px;
+}
+.footer-links a
+{
+    color: white;
+}
+#footer-media
+{
+    margin-right: 140px;
+}
+#footer-media i
+{
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 10px;
 }
