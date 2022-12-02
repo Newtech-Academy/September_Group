@@ -1,0 +1,100 @@
+.divmare{
+        font-family: 'Bai Jamjuree';
+        src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoa8SsLLq7s.woff2) format('woff2');
+        text-align: center;
+}
+.div1{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+#p1{
+    font-size: 80px;
+    padding: 10px 10px 10px 10px;
+    color:#1aa78d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button1{
+    background-color: #26baa4;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    width: 170px;
+}
+.button2{
+    background-color: #6173ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    width: 170px;
+}
+h1{
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    color:#9fabb2;
+}
+.tb1{
+    margin: auto;
+    text-align: left;
+    margin-bottom: 50px;
+}
+th, td{
+    padding-left: 200px;
+}
+td{
+    color:#9fabb2;
+}
+.div2, .div3, .div4{
+    display:inline-block;
+    justify-content: center;
+    font-size: smaller;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#img1, #img2, #img3, #img4, #img5{
+    display: inline-block;
+    margin: 50px 50px 100px 120px;
+    width:8%;
+}
+.button3{
+    background-color: #26baa4;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    width: 300px;
+}
+.button4{
+    background-color: #6173ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    width: 300px;
+}
+.divfooter{
+    background-color:  rgb(230, 229, 229);
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#footerallign{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#footiconc{
+    margin: 20px 20px 20px 20px;
+    color:#1aa78d;
+    font-size: 30px;
+}
+#logofb, #logotw, #logoig{
+    margin: 30px 30px 0px 0px;
+}
+
+
