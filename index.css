@@ -13,3 +13,130 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
+.divA{background-color: white;
+}
+.div1{padding: 20px 20px;
+}
+.div2{margin-top: 30px;
+      color: #070439;
+      padding: 20px 20px;
+}
+.div3{background-color: white;
+     border: 1px solid black;
+     width: 20%;
+     margin-top: 20px;
+     height: 30px;
+     color: darkgray;
+     font-size: small;
+     text-align:bottom;
+    
+     }
+.div4{background-color: #3065f8;
+     color: white;
+     text-decoration: none;
+     width: 15%;
+     margin: auto;
+     margin-top:-30px;
+     margin-left:300px;
+     padding: 0px;
+     height: 30px;
+     text-align: center;
+     }
+.div5{margin-bottom: 300px;
+      float: right;
+      display: flex;
+      flex-direction: row;
+      width: 1000px;
+    }
+.divB{background-color: #f6f6fe;
+     
+}
+.div6{padding: 20px 20px;
+
+}
+.div7{color: #3c9f8f;
+      padding: 20px 20px;
+      font-size: 20px;
+      border-bottom: #3c9f8f;
+    
+    }
+.div8{background-color:white ;
+    width: 400px;
+    height: 200px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    color: #070439;
+}
+.div9{border-radius: 50%;
+      
+
+}
+.p1{float: right;
+    width: 10px;
+
+}
+.div10{display: flex;
+       flex-direction: row;
+       justify-content: right;
+
+}
+.img2{width:50%;
+
+}
+.divC{background-color: #585989;
+      height: 300px;
+      padding: 50px 50px;
+
+}
+.div12{display: flex;
+       flex-direction: row;
+       justify-content: right;
+
+}
+.div13{background-color: white;
+    border: 1px solid black;
+    width: 20%;
+    padding: 20px;
+    height: 30px;
+    color: darkgray;
+    font-size: small;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+
+}
+.div14{background-color: #3065f8;
+    color: white;
+    text-decoration: none;
+    width: 15%;
+    height: 30px;
+    text-align: center;
+}
+.divD{background-color: #070439;
+      height: 300px;
+      padding: 50px 50px;
+      color: whitesmoke;
+
+}
+.div16{
+    
+    margin:auto;
+    width: 20px;
+    margin-bottom: 150px;
+}
+.div17{float: right;
+
+
+}
+
+
+
+      
+     
+     
+     
+      
+
+    
+
+
