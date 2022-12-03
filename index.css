@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bai Jamjuree;
+}
+header
+{
+    text-align: center;
+}
+header img
+{
+    height: 90px;
+    margin: 60px 0px 40px 0px;
+}
+header h1
+{
+    color: #4c545d;
+    font-size: 30px;
+}
+header p
+{
+    color: #9fabb2;
+    font-size: 13px;
+    margin: 15px 0px 15px 0px ;
+}
+#ios-button1
+{
+    height: 35px;
+    width: 160px;
+    border-radius: 20px;
+    border: none;
+    background-color: #26baa4;
+    color: white;
+    box-shadow: 1px 1px 2px grey;
+    margin-right: 10px;
+}
+#mac-button1
+{
+    height: 35px;
+    width: 160px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6173ff;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+h2
+{
+    margin-top: 90px;
+    color:#4c545d;
+    margin-bottom: 15px;
+}
+.main-divs
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.discriptions
+{
+    color: #9fabb2;
+    font-size: 13px;
+}
+#computer-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#computer-section img
+{
+    height: 300px;
+    width: 280px;
+}
+#computer-section-text
+{
+    text-align: left;
+    margin-left: 120px;
+}
+h3
+{
+    font-size: 16px;
+    margin-top: 13px;
+    color:#4c545d;
+}
+#devices-img
+{
+    height: 500px;
+    margin-top: 30px;
+}
+.div-100width
+{
+    width: 100%;
+    padding: 0px 25px 0px 25px;
+}
+#features-row-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#features-row-display div
+{
+    width: 33%;
+    margin: 0px 10px 0px 10px;
+}
+#features-row-display img
+{
+    height: 30px;
+}
+#sponsors-row-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#sponsors-row-display img
+{
+    height: 30px;
+    margin: 0px 10px 30px 10px;
+}
+#ios-button2
+{
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: #26baa4;
+    color: white;
+    box-shadow: 1px 1px 2px grey;
+    margin: 15px 10px 100px 0px ;
+}
+#mac-button2
+{
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6173ff;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+footer
+{
+    height: 120px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 70px 0px 70px;
+}
+#footer-logo
+{
+    height: 45px;
+    margin-top: 15px;
+}
+footer li
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+footer a
+{
+    color:#4c545d;
+    text-decoration: none;
+    font-size: 13px;
+}
+#media-footer img
+{
+    margin: 30px 15px 0px 0px;
+    height: 18px;
+}
