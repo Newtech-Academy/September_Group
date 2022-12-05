@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #0d192b; 
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height:580px;
+    border-radius: 20px;
+    background-color: #14253d;
+}  
+
+.img0{
+    width: 380px;
+    border-radius: 46px;
+    padding: 32px;
+}
+
+h3{
+    color: white;
+    padding-left: 32px;
+    letter-spacing: -1px;
+}
+
+.p1{
+    padding: 15px 32px;
+    color: #8bacda;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 394px;
+}
+
+.div1{
+    display: flex;
+    padding:0px 32px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div11{
+    display: flex; 
+    width:110px; 
+    align-items: center;
+}
+
+.span1{
+    color: #00FFF8;
+    padding-left: 9px;
+}
+
+.div12{
+    display: flex;
+    width: 88px;
+    align-items: center;
+}
+
+.span2{
+    color: #8bacda;
+    padding-left: 9px;
+    font-size: 11px;
+}
+
+hr{
+    display: flex;
+    position: relative;
+    left: 32px;
+    border: 0.7px solid #8bacda;
+    margin-top: 21px;
+    }
+
+    .div3{
+        display: flex;
+        padding: 17px 32px;
+        width: 440px;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .img3{
+        width: 9%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .p3{
+        padding-left: 25px;
+        font-family: 'Georgia';
+        color:#8bacda
+    }
+
+    .span3{
+        color:white;
+    }
+
+/* .img33{
+    width: 90%;
+    background:url(../Card-main/images/image-avatar.png) no-repeat center;
+    background-size: 25%; 
+    } */
+
