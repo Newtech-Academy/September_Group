@@ -77,6 +77,7 @@ main h1{
   display: flex;
   width: 1690px;
   margin: auto;
+  justify-content: space-between;
 }
 
 #txts_right{
@@ -84,9 +85,9 @@ main h1{
     text-align: left;
 }  
 
-#spatiu_stg{
+/* #spatiu_stg{
     width:270px;
-}
+} */
 
 #txts_right p{
     margin: 0;
