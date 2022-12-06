@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header img{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+    height:100px;
+    margin-top:100px;
+}
+
+header h1{
+color:#4c545d;
+font-family:Bai Jamjuree;
+text-align:center;
+margin-top:30px;
+}
+
+header p{
+    color:#9fabb2;
+    text-align:center;
+    margin-top:10px;
+}
+
+.buttons{
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+    margin-top:15px;
+}
+.button-IOS{
+    background-color:#26baa4;
+    color:white;
+    border:none;
+    border-radius:20px;
+    width:150px;
+    height:50px;
+    display:inline;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.button-Mac{
+background-color : #6173ff;
+color: white;
+border:none;
+border-radius :20px;
+width:150px;
+height:50px;
+display:inline-block;
+box-shadow: 1px 1px 2px black;
+margin-left:15px;
+}
+
+main h1{
+    color:#4c545d;
+    text-align:center;
+margin-top:80px;
+margin-bottom:10px;
+}
+
+main p{
+    color:#9fabb2;
+    text-align:center; 
+}
+
+.computer1{
+    width:100%;
+    display:flex;
+    margin-top:30px;
+    margin-left:50px;
+}
+.computerdescr{
+    text-align:left;
+    flex-direction: row;
+    margin-left:150px;
+    margin-top:100px;
+    text-indent:2cm;
+    line-height:1.8;
+}
+.img1{
+    margin-top:60px;
+    width:25%;
+    margin-left:150px;
+   
+}
+
+.computer1 h3{
+    color:#4c545d;
+    text-align:left;
+   
+}
+
+.descr1{
+    color: #9fabb2;
+    text-align:left;
+    
+}
+
+.devices{
+    margin-top:50px;
+    width:100%;
+}
+
+.devices h3{
+    color:#4c545d;
+    text-align:center;
+    font-size:2em;
+}
+
+.devices p{
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.devices img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+}
+
+.middletext{
+    width:100%;
+    margin-top:50px;
+}
+
+.middletext h2{
+    text-align:center;
+    color:#4c545d;
+    margin-bottom:20px;
+    font-weight: bolder;
+}
+
+.middlepart1{
+    width:100%;
+    display:inline;
+}
+
+.middlepart{
+width:33%;
+display:inline-block;
+margin-top:50px;
+}
+
+.middlepart img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:5%;
+    margin-bottom:15px;
+}
+
+.middlepart h3{
+    color:#4c545d;
+    text-align:center;
+}
+
+
+.companies{
+    margin-top:70px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:auto;
+}
+
+.companies img{
+    width:8%;
+    margin:auto;
+}
+
+.clipboard{
+    width:70%;
+}
+
+.Clipboard h2{
+    color:#4c545d;
+    text-align:center;
+    margin-top:50px;
+}
+
+.Clipboard p{
+    margin-top:15px;
+}
+
+.buttons2{
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:row;
+    margin-top:15px;
+}
+
+.buttoniOS{
+    background-color:#26baa4;
+    color:white;
+    text-align:center;
+    border:none;
+    border-radius:20px;
+    width:300px;
+    height:50px;
+}
+
+.buttonMac{
+    background-color:#6173ff;
+    color:white;
+    text-align:center;
+    border:none;
+    border-radius:20px;
+    width:300px;
+    height:50px;
+    margin-left:20px;
+}
+
+
+
+footer{
+    width:100%;
+    background-color:lightgray;
+    display:flex;
+    flex-direction:row;
+   justify-content:space-between;
+    padding:20px;
+    margin-top:70px;
+}
+
+footer img{
+    width:50px;
+   margin-left:30px;
+}
+
+footer li{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+footer a{
+    text-decoration:none;
+    color:#4c545d;
+}
+
+.icons img{
+    height:20px;
+    width:10%;
+}
