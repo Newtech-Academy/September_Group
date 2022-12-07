@@ -6,10 +6,338 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+    }
 
 body{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
-}
+    background-color: black;
+    }
+
+.div1{
+    width: 800px;
+    height:800px;
+    margin: -21px auto 0px auto;
+    background-color: #f6f6fe;
+    }
+
+   .fylo{
+    position: relative;
+    display:inline-block;
+    top:20px;
+    left:20px;
+    width:100px;
+    height:30px;
+    background-image: url(logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+.linkuri{
+    display:flex;
+    position:relative;
+    top:-15px;
+    left:580px;
+    width: 200px;
+    height: 30px;
+    justify-content: space-between;
+    }
+
+.features,.team,.signin{
+    color:#070439;
+    font-size: 12px;
+    padding-top:7px;
+    }
+
+.allyourfiles{
+    display:inline-block;
+    width:400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 40px;
+    }
+
+.first-heading{
+    font-size: 25px;
+    color:#070439;
+    line-height: 40px;
+    }
+
+.first-paragraph{
+    font-size: 12px;
+    color:#070439;
+    line-height: 20px;
+    margin-top: 15px;
+    }
+
+.illustration1{
+    display:inline-block;
+    width:360px;
+    height: 300px;
+    position: absolute;
+    background-image: url(illustration-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    }
+
+#email{
+    width:190px;
+    height: 20px;
+    font-size: 6px;
+    text-indent: 10px;
+    }
+
+#buton{
+    width:150px;
+    height:20px;
+    border:none;
+    margin-left: 10px;
+    background-color: #3065f8;
+    color:white;
+    font-size: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+
+.div2{
+    width:800px;
+    height:500px;
+    margin: -400px auto 0px auto;
+    background-color: #f1f1fd;
+    border-top-left-radius: 160% 30%;
+    border-top-right-radius: 160% 30%;
+    position:relative;
+    overflow:hidden;
+    }
+
+  .stayproductive{
+    display:inline-block;
+    width:450px;
+    height: 300px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 40px;
+    }
+
+.second-heading{
+    font-size: 25px;
+    color:#070439;
+    line-height: 40px;
+    }
+
+.second-paragraph{
+    font-size: 12px;
+    color:#070439;
+    line-height: 20px;
+    margin-top: 15px;
+    }
+
+.illustration2{
+    display:inline-block;
+    width:320px;
+    height: 250px;
+    position: absolute;
+    background-image: url(illustration-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    }
+
+   .fyloworks{
+    display:flex;
+    width:140px;
+    height:25px;
+    font-size: small;
+    color:#3c9f8f;
+    border-bottom:2px solid #3c9f8f;
+    }
+
+   .arrow{
+    align-self: center;
+    margin-left: 5px;
+    }
+
+   .card{
+    width:280px;
+    height: 170px;
+    border-radius: 5px;
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+   }
+   .ghilimele{
+    width:20px;
+    height:20px;
+    margin:20px 0px 0px 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    transform: scale(-1, -1);
+    font-family:arial;  
+   }
+
+   .textcard{
+    font-size: 10px;
+    margin:0px 0px 0px 20px;
+    color:#070439;
+    letter-spacing: 1px;
+   }
+
+   .kyle{
+    display:flex;
+    width:200px;
+    height:60px;
+    margin-left: 15px;
+    margin-top: 10px;
+   }
+
+   .avatarkyle{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background-image: url(avatar-testimonial.jpg);
+    background-size: contain;
+    align-self: center;
+   }
+
+   .textkyle{
+    font-size: 10px;
+    margin-left: 5px;
+    align-self: center;
+   }
+
+   .div3{
+    display:flex;
+    width:800px;
+    height:150px;
+    background-color: #585989;
+    margin: 0px auto 0px auto;
+    }
+
+    .acces,.signup{
+    color:white;
+    margin-left:20px;
+    }
+    
+    .acces{
+    padding-top: 35px;
+    }
+
+    .signup{
+    padding-top: 10px;
+    font-size: 8px;
+    }
+
+    .div3stanga{
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    }
+
+    #email2{
+    width:200px;    
+    height: 20px;
+    font-size: 6px;
+    text-indent: 10px;
+    margin-top: 40px;
+    }
+
+    
+    #buton2{
+    width:90px;
+    height:20px;
+    border:none;
+    margin: 10px 0px 0px 0px;
+    background-color: #3065f8;
+    color:white;
+    font-size: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+        
+
+    .div3dreapta{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    }
+
+   .div4{
+    position:relative;
+    width:800px;
+    height:230px;
+    background-color: #070439;
+    margin: 0px auto 0px auto;
+   }
+
+   .fylofooter{
+    position: absolute;
+    display:inline-block;
+    top:60px;
+    left:20px;
+    width:100px;
+    height:30px;
+    background-image: url(logo-white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+    .phone{
+    position: absolute;
+    top:100px;
+    left:20px;
+    }
+
+    .email{
+    position: absolute;
+    top:120px;
+    left:20px;
+    }
+    .primacoloana{
+    position: absolute;
+    top:100px;
+    left:280px;
+    color:white;
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+    .adouacoloana{
+    position: absolute;
+    top:100px;
+    left:400px;
+    color:white;
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+    .logouri{
+        display:flex;
+        justify-content: space-between;
+        width:110px;
+        height:40px;
+        /* align-items: center; */
+        position: absolute;
+        top:100px;
+        left:550px; 
+    }
+    
+    .logo1,.logo2,.logo3{
+        width:30px;
+        height:30px;
+        padding-left: 4px;
+        border:1px solid white;
+        border-radius: 50%;
+        align-items: center;
+        align-self:baseline;
+        
+    }
+    
+    
