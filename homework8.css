@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 60px;
+}
+
+h1,
+h2 {
+    color: #4c545d;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+p {
+    color: #9fabb2;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.button1,
+.button2 {
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    width: 250px;
+    color: white;
+    box-shadow: 0px 2px 3px 1px gray;
+}
+
+.button1,
+.button3 {
+    background-color: #26baa4;
+}
+
+.button2,
+.button4 {
+    background-color: #6173ff;
+}
+
+main {
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    width: 100%;
+}
+
+.computer {
+    width: 400px;
+    height: 400px;
+    padding: 70px;
+}
+
+h3 {
+    color: #4c545d;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 100px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.picture {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.properties {
+    width: 600px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.psmall {
+    font-size: 12px;
+}
+
+.icons {
+    width: 100px;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+
+.button3,
+.button4 {
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 350px;
+    color: white;
+    box-shadow: 0px 2px 3px 1px gray;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #DCDCDC;
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.logo2 {
+    width: 40px;
+    height: 40px;
+    margin: 20px 50px 20px 50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px 80px 0px 80px;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4c545d;
+    font-size: 14px;
+}
+
+.socialmedia {
+    border: none;
+    height: 30px;
+    padding: 10px;
+    margin: 40px 0 0 40px;
+}
+
+.social {
+    width: 20px;
+}
