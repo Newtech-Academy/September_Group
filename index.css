@@ -3,4 +3,260 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Commissioner', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(images/image-hero-desktop.jpg);
+    background-size:98% ;
+    background-repeat: no-repeat;
+    height:485px;
+    /* display:flex;
+    justify-content: space-around; */
+    position:relative;
+    margin:auto;
+    z-index: 1;
+}
+
+header #crowd{
+    color:#f5f9fa;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    /* margin-top:45px; */
+    /* margin-left: 85px; */
+    position:absolute;
+    left:25%;
+    top: 9.3%;
+
+}
+
+header a{
+    color: #f5f9fa;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#header_links{
+    position:absolute;
+    top: 9.3%;
+    left: 63%;
+}
+
+main{
+    background-color: #fafafa;
+    width: 98%;
+    height:2000px;
+    position:relative;
+}
+
+#master{
+    width:690px;
+    height:245px;
+    background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    left:30%;
+    top: -123px;
+    z-index:2;
+    border: 1px solid #b6ebe7;
+ 
+}
+
+#logo_mast{
+    top: -25px;
+    position: absolute;
+    left:320px;
+}
+
+#master h2{
+    position: absolute;
+    font-family: Commissioner, sans-serif;
+    top: 70px;
+    left: 21%;
+    color:#000000;
+}
+
+#master p{
+    color: #2a837d;
+    position: absolute;
+    left:19%;
+    top:46%;
+    font-size: small;
+}
+
+#but_back{
+    border-radius: 25px;
+    color: white;
+    background-color: #2a837d;
+    border:none;
+    width:177px;
+    height:50px;
+    position: absolute;
+    left:5%;
+    top:60%;
+}
+
+#but_bookm{
+    background-color: #e3e3e3;
+    border:none;
+    position: absolute;
+    right:5%;
+    top:60%;
+    height: 50px;
+    width: 165px;
+    border-radius: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+#but_bookm img{
+    height: 50px;
+    position: absolute;
+    /* left: 65%; */
+    margin-left:0;
+    top:0%;
+    left:0;
+}
+
+#numbers{
+    background-color: white;
+    width: 690px;
+    height: 140px;
+    position: absolute;
+    left: 30%;
+    margin-top: 25px;
+    z-index: 2;
+    top: 120px;
+    display: flex;
+    border-radius: 10px;
+    padding:35px;
+    border: 1px solid #b6ebe7;
+}
+
+.nr {
+    border-right: 1px solid #cccccc;
+    width:230px;
+    height:70px;
+}
+
+#nr_right{
+    border-right:none;
+    margin-left: 45px;
+}
+.nr p{
+    color:#2a837d;
+    font-size: small;
+}
+
+#nr_cent{
+    margin-left: 45px;
+}
+
+#bottom{
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #b6ebe7;
+    width: 690px;
+    height: 1110px;
+    position: absolute;
+    left: 30%;
+    top: 310px;
+    padding: 25px;
+}
+
+#bottom p{
+    color: #2a837d;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.div_mic{
+    border: 1px solid #8be2db;
+    height: 245px;
+    width: 610px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    position: relative;
+    /* padding:25px; */
+    margin-left:auto;
+    margin-right:auto;
+    padding :25px;
+}
+
+#about{
+    border: none;
+    padding:0;
+}
+
+.padd{
+    padding :25px;
+}
+.div_mic h3{
+    display: inline;
+}
+
+.pledge{
+    color:#2a837d;
+    position: absolute;
+    right:25px;
+}
+
+.div_mic_jos{
+    position: relative;
+    margin-top: 40px;
+    display:flex;
+    width: 570px;
+    height: 130px;
+}
+
+.div_mic_jos h3{
+    position: absolute;
+}
+
+.div_mic_jos p{
+    position: absolute;
+    left: 56px;
+    top: -18px;
+}
+
+.div_mic_jos button{
+    position: absolute;
+    right:0;
+    border-radius: 25px;
+    color: white;
+    background-color: #2a837d;
+    border:none;
+    width:140px;
+    height:50px;
+    font-size: 14px;
+}
+
+#black{
+    left: 45px;
+}
+
+
+#mahog{
+    border: 1px solid #ededed;   
+}
+
+#mahog p{
+    left:30px;
+    color: #cccccc;
+}
+
+#mahog h3, #mahog h1{
+    color: #757575;
+}
+
+#mahog .pledge{
+    color:#8be2db
+}
+
+#mahog button{
+    background-color: #c2bdbd;
 }
