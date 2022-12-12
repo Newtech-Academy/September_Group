@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{ 
+    margin-top: 100px;
+    align-content: center;
+    font-family:'Tahoma';
+    font-style: normal;
+}
+
+h1.top{
+    margin-top: 40px;
+    font-size: 28px;
+    color: #4c545d;
+}
+.head1{
+    font-size: 14px;
+    margin: 20px;
+    color:#9fabb2;
+}
+.img1{
+    width: 80px;
+    height: 80px;
+}
+.ios {
+    background-color:#26baa4;
+    border-style: none;
+    width: 5cm;
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+.mac{
+    background-color:#6173ff;
+    border-style: none;
+    width: 5cm;
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+h1.top2{
+    margin-top: 240px;
+    font-size: 28px;
+    color: #4c545d;    
+}
+.head2{
+    font-size: 14px;
+    margin: 20px;
+    color:#9fabb2;
+}
+
+.img2{
+    height: 350px;
+    width: 400px;
+    float:left;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.position{
+    position: relative;
+    box-sizing: content-box;
+    width: 700px;
+    height: 200px;
+    margin-left: 420px;
+    padding-top: 80px;
+    text-align: left;
+
+}
+h3{
+    margin-left: 150px;
+    color: #4c545d;
+    font-size: 16px;
+}
+.position p{
+    margin-left: 150px;
+    color: #9fabb2;
+    font-size: 14px;
+    margin-top: 2px;
+}
+h1.main{
+    margin-top: 200px;
+    color: #4c545d;
+    font-size: 28px;
+}
+.whether{
+    color: #9fabb2;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.devices{
+    width: 100%;
+    margin-top: 100px;
+}
+.workflow{
+    margin-top: 100px;
+    color: #4c545d;
+    font-size: 28px;
+}
+.boost{
+    color: #9fabb2;
+    font-size: 14px;
+    margin-top: 20px;
+}
+div.icons{
+    box-sizing: border-box;
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    display:flexbox;
+}
+.icon1{
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 440px;
+    float: left;
+    text-align: center;
+}
+#img1{
+    margin-left: 80px; 
+    width: 40px;
+}
+.list{
+    margin-top: 20px;
+    color:#4c545d;
+    font-size: 16px;
+}
+.black{
+    color: #9fabb2;
+    font-size: 14px;
+}
+.icon2{
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 440px;
+}
+#img2{
+    margin-top: 40px;
+    margin-left: 40px; 
+    width: 40px;
+}
+.plain{
+    margin-top: 25px;
+    color:#4c545d;
+    font-size: 16px;
+}
+.text{
+    color: #9fabb2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.icon3{
+    box-sizing: border-box;
+    width: 440px;
+    margin-left: auto;
+    margin-top: -100px;
+
+}
+#img3{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 40px;
+}
+.sneak{
+    margin-top: 24px;
+    color:#4c545d;
+    font-size: 16px;
+}
+.quick{
+    color: #9fabb2;
+    font-size: 14px;
+}
+.gimvh{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.google{
+      width: 150px;
+      margin-right: 100px;
+}
+.ibm{
+    margin-right: 150px;
+}
+.microsoft{
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+.vector{
+    margin-left: 150px;
+}
+.top3{
+    margin-top: 140px;
+    font-size: 28px;
+    color: #4c545d;
+}
+.head3{
+    font-size: 14px;
+    margin: 20px;
+    color:#9fabb2;
+}
+.green{
+    background-color:#26baa4;
+    border-style: none;
+    width: 11cm;
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+.blue{
+    background-color:#6173ff;
+    border-style: none;
+    width: 11cm;
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+}
+.box{
+    background-color: #d5d9dc;
+    box-sizing:border-box;
+    width: 100%;
+    height:130px;
+    margin-top: 150px;
+    
+    
+ }
+.img3{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 40px 60px 40px 60px;
+}
+.list{
+    text-align:initial;
+    margin-left: 130px;
+    padding-top: 20px;
+    color: #4c545d;
+
+}
+ul{
+   list-style-type: none; 
+   margin-top: 20px;
+ }
+ li{
+    margin-left: 100px;
+    margin-right: 150px;
+    display: inline;
+    font-size: 14px;
+ }
+ a{
+     color: #4c545d;
+     text-decoration: none;
+ }
+ .logo{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+ }
+ .logo img{
+    margin-left: 20px;
+    width: 15px;
+ }
