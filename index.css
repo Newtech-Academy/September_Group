@@ -5,5 +5,278 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    position: relative;
+    display:flow-root ;
+    height:80px;
+    z-index: 5;
+}
+
+
+body{
+        width:1440px;
+        height: 2410px;
+        display:block;
+        position: relative;
+} 
+
+header h2{
+    font-family: Karla, sans-serif;
+    line-height: 13px;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    color:#2d2640;
+}
+
+#header_links{
+    width: 530px;
+    position: absolute;
+    right: 130px;
+    top:30px;
+}
+
+
+#header_links a{
+    /* position: absolute; */
+    top:30px;
+    right: 500px;
+    margin-right: 25px;
+    font-family: Karla, sans-serif;
+    font-size: 14px;
+    color:#95a9c6;
+   }
+
+#header_links a:hover{
+    padding: 15px 30px 15px 30px;
+    color:#2d2640;
+    border: 1px solid #2d2640;
+    font-weight: 600;
+}
+
+#up{
+    height: 600px;
+    background-color: #2d2640;
+    position:relative;
+}
+
+#stg{
+    position: absolute;
+    width: 540px;
+    height:500px;
+    top: 100px;
+    left: 165px;
+}
+
+.lin_oriz{
+    width:150px;
+    border-bottom: 1px solid white;
+    height:1px;
+}
+
+#stg h1{
+    color:white;
+    font-family: DM Serif Display, serif;
+    margin-top: 70px;
+    font-size: 60px;
+    margin-right:90px;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+#stg p{
+    color:white;
+    margin-top:25px;
+    font-family: Karla, sans-serif;
+    line-height: 30px;
+}
+
+#stg a{
+    font-family: Karla, sans-serif;
+    font-size: 13px;
+    color:white;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid white;
+    margin-top:35px;
+    position:absolute;
+    top: 320px;  
+}
+
+#dr{
+    position: absolute;
+    height:655px;
+    width:540px;
+    background-image: url(images/image-intro-desktop.jpg);
+    top: 105px;
+    left: 735px;
+    z-index:2;
+}
+
+#bg_left{
+    position: absolute;
+    top: 430px;
+}
+
+#bg_right{
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+    z-index: 3;
+    height: 515px;
+    width:436px;
+}
+
+#down{
+    position:absolute;
+    left:165px;
+    margin-top:305px;
+    height:1033px;
+    /* background-color: yellow; */
+    width:1290px;
+}
+
+#down .lin_oriz{
+    border-bottom: 1px solid #95a9c6;
+}
+#down h1{
+    font-family: DM Serif Display, serif;
+    margin-top: 70px;
+    color:#2b272f;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.ic_txt{
+    width:378px;
+    display: inline-block;
+    height: 455px;
+    padding: 50px 30px 0 0;
+    vertical-align: top;
+}
+
+.ic{
+    background-color: #95a9c6;
+    width: 85px;
+    height:85px;
+    border-radius: 50%;
+}
+
+.ic_txt h2{
+    margin-top:40px;
+    font-size: 28px;
+}
+.ic_txt p{
+    margin-top:30px;
+    font-size: 16px;
+    color:#95a9c6;
+    font-family: Karla, sans-serif;
+    line-height: 30px;
+}
+
+#find_out{
+    width:1110px;
+    height: 250px;
+    background-color: #2d2640;
+    position: relative;
+}
+
+#find_out h1{
+    color:white;
+    width:480px;
+    font-size: 55px;
+    position: absolute;
+    left:85px;
+    line-height: 55px;
+    top: 0;
+}
+
+#find_out a{
+    color:white;
+    font-family: Karla, sans-serif;
+    position: absolute;
+    right:80px;
+    top: 105px;
+    border: 2px solid white;
+    padding: 9px 25px 9px 25px;
+    z-index: 2;
+}
+
+#find_out img{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+footer{
+    height:390px;
+    width:1440px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom:0;
+}
+
+#name_sm{
+    position: absolute;
+    left: 165px;
+    border-bottom: 1px solid #d8dfe9;
+    width: 1110px;
+    height: 120px;
+    top: 0px;
+}
+
+footer h2{
+    font-family: Karla, sans-serif;
+    line-height: 13px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    color:#2d2640;
+    font-size: 28px;
+}
+
+footer #sm_links{
+    position: absolute;
+    right:0;
+    top:60px;
+}
+
+.sm{
+    margin-left: 20px;
+}
+
+.col_links{
+    width:270px;
+    height:160px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.col_links p{
+display: block;
+font-size: 14px;
+font-family: Karla, sans-serif;
+margin-bottom: 30px;
+font-weight: 600;
+color:#95a9c6;
+}
+
+.col_links a{
+    font-size: 14px;
+    font-family: Karla, sans-serif;
+    margin-top:10px;
+    display:block;
+    color:black;
+    font-weight: 700;
+}
+
+#footer_txts{
+    width:1110px;
+    height:160px;
+    z-index:2;
+    position: absolute;
+    left:165px;
+    bottom:65px;
 }
 
