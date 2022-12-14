@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{font-family: "BaiJamjuree" ;
+}
+.divA{
+}
+
+.buton{display: flex;
+    justify-content: center;
+
+
+}
+.img1{
+     margin-top: 80px;
+    }
+h2{color: #4c545d;
+
+}
+p{color: #9fabb2;
+}
+.button{background-color: #26baa4;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline;
+    border-radius: 30%;
+    width: 200px;
+    height: 50px;
+   margin-right: 150px;
+    
+   
+    
+}
+.button1{background-color: #6173ff;
+    border-radius: 30%;
+    width: 200px;
+    height: 50px;
+   
+
+}
+.divB{
+}
+.img2{width: 60px;
+      height:20px;
+      
+}
+.div1{float :right
+      
+
+}
+.divC{margin-top: 600px;
+     }
+.img3{margin-left: 180px;
+    
+     width: 200px;
+     height: 100px;
+    }
+.divD{margin-top: 450px;
+    
+      
+}
+.div2{display: flex;
+      justify-content: center;
+     
+     
+}
+.img4{margin-right: 200px;
+     width: 30%;
+    
+
+}
+.img5{
+
+}
+.img6{margin-left: 200px;
+    width: 30%;
+    }
+.div3{display: flex;
+     justify-content: center;
+     padding:60px;
+     width: 100%;
+}
+.img7{margin-right: 100px;
+     width: 15%;
+     
+}
+.img8{margin-right: 100px;
+    width:15% ;
+
+}
+.img9{margin-right: 100px;
+    width:15% ;
+
+}
+.img10{margin-left:100 px;
+    width:15% ;
+
+}
+.img11{margin-left: 100px;
+    width:15% ;
+
+}
+.div4{display: flex;
+    justify-content: center;
+
+}
+.button2{background-color: #26baa4;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline;
+    border-radius: 30%;
+    width: 400px;
+    height: 50px;
+   margin-right: 50px;
+
+}
+.button3{
+    background-color: #6173ff;
+        border-radius: 30%;
+        width: 400px;
+        height: 50px;
+       
+}
+footer{background-color: #9fabb2;
+    height: 150px;
+
+}
+.img12{ padding-top: 15px;
+        padding-left: 50px;
+      width:20px;
+      height:20px;
+
+}
+.div5{padding: 20px;
+     display: flex;
+     justify-content: center;
+     
+     
+     
+      
+}
+li{padding: 10px;
+   margin-right: 100px;
+
+}
+.img13{padding: 20px;
+    margin-left: 50px;
+
+}
