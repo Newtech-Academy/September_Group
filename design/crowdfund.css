@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+}
+body{
+    background-color: #fafafa;
+}
+.div{
+    display: block;
+}
+.product_image img{
+    width: 100%;
+    height: fit-content;
+    position: sticky;
+}
+.text{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px
+}
+.product_image{
+    position: relative;
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+}
+.text img{
+    margin: 35px 200px 0 0;
+}
+.text ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 35px 0 0 180px;
+}
+.text a{
+    padding: 0 25px 0 0;
+    color: white;
+}
+.text a{
+    text-decoration: none;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+.mastercraft{
+    position: relative;
+    z-index: 100;
+    margin-top: -85.5px;
+    border: 1px grey solid;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 8px;
+    background-color:white;
+    width: 710px;
+    height: fit-content;
+    border: 1px solid #ededed;
+    margin-bottom: 25px;
+}
+.logo_mastercraft{
+    height: 56px;
+    width: 56px;
+    position: absolute;
+    top: -28px;
+    left: calc(50% - 28px);
+}
+p{
+    color: #757575;
+    padding-bottom: 10px;
+}
+h2, h4{
+    color: #000000;
+    padding-bottom: 10px;
+}
+.mastercraft_buttons{
+    display: inline-block;
+    margin: 20px 20px 40px 20px;
+}
+.back{
+    border-radius: 30px;
+    background-color: #2a837d;
+    color: #fafafa;
+    padding: 15px;
+    border: none;
+    margin-right: 310px;
+    width: 150px;
+    height: fit-content;
+    font-size: 15px;
+    cursor:pointer;
+}
+.bookmark{
+    background: #e3e3e3 url(../images/icon-bookmark.svg) no-repeat;
+    background-size: 45px;
+    background-position: 0;
+    padding: 15px 15px 15px 50px;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    height: fit-content;
+    cursor:pointer;
+}
+.bookmark img{
+    border-radius: 50%;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px 25px 0px;
+    width: 710px;
+    border: 1px solid #ededed;
+    background-color:white;
+    border-radius: 8px;
+}
+.numbers div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 30px 40px;
+    flex-wrap: nowrap;
+    width: 190px;
+    padding: 5px 10px 5px 10px;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.description{
+    color: #757575;
+}
+.backed, .backers{
+    border-right: 1px solid #ededed;
+}
+.about{
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    background-color: white;
+    width: 710px;
+    margin: 25px 0px 10px 0px;
+    padding: 50px 40px;
+    line-height: 30px;
+}
+.pledge{
+    color: #2a837d;
+    float: right;
+}
+.about h4{
+    display: inline;
+}
+.bamboo_stand, .black_edition_stand, .mahogany{
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    margin: 25px 0px 10px 0px;
+    padding: 20px 20px 40px 20px;
+}
+.pieces{
+    font-weight: bold;
+    font-size: 30px;
+}
+.left{
+    color: #757575;
+    vertical-align: super;
+    font-size: 15px;
+}
+.select_reward{
+    border-radius: 30px;
+    background-color: #2a837d;
+    color: #fafafa;
+    padding: 13px;
+    border: none;
+    float: right;
+    cursor:pointer;
+}
+.bamboo_stand p, .black_edition_stand p, .mahogany p{
+    padding: 20px 0 40px 0;
+}
+.out_of_stock{
+    border-radius: 30px;
+    background-color: #757575;
+    color: #fafafa;
+    padding: 13px;
+    border: none;
+    float: right;
+    cursor: not-allowed;
+}
+.mahogany{
+    opacity: 0.5;
+}
+.back, .bookmark, .select_reward{
+    opacity: 0.8;
+}
+.back:hover, .bookmark:hover, .select_reward:hover{
+    opacity: 1;
+}
