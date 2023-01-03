@@ -110,6 +110,12 @@ h2, h4{
     height: fit-content;
     cursor:pointer;
 }
+.bookmark:hover{
+    background: #e3e3e3 url(../images/icon-check.svg) no-repeat;
+    background-size: 45px;
+    background-position: 0;
+    padding: 15px 15px 15px 50px;
+}
 .bookmark img{
     border-radius: 50%;
 }
