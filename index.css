@@ -4,3 +4,310 @@
     box-sizing: border-box;
     font-family: 'Commissioner', sans-serif;
 }
+
+header {
+    width: 100%;
+    height: 550px;
+    background-image: url(images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+header .menu  ul {
+    display: flex;
+    margin-left: 100px;
+}
+
+header .menu ul li {
+    list-style-type: none;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+
+.card-one {
+    width: 750px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -140px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.card-one img {
+    margin-left: 340px;
+    margin-top: -25px;
+    width: 60px;
+}
+
+.card-one h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-one p {
+    text-align: center;
+    color: gray;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-one .buttons #btn1 {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #2a837d;
+    width: 180px;
+    height: 55px;
+    font-size: 1rem;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.card-one .buttons #btn2 {
+    border: none;
+    border-radius: 50px;
+    background: #cccccc;
+    width: 160px;
+    height: 55px;
+    font-size: 1rem;
+    margin-left: 300px;
+    text-indent: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-one .buttons img {
+    margin-left: 530px;
+    margin-top: -55px;
+    padding-bottom: 40px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.card-two {
+    width: 750px;
+    height: 130px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.card-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-two p {
+    color: gray;
+}
+
+.card-two .backers, .days {
+    margin-right: 80px;
+}
+
+.card-two span {
+    border: 1px solid gray;
+    height: 70px;
+    margin-left: 20px;
+}
+
+
+
+.card-three {
+    width: 750px;
+    height: 1150px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 1px gray;
+    padding: 35px;
+}
+
+.card-three h2 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card-three p {
+    line-height: 30px;
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+
+
+.card-three .card-three-one {
+    border: 1px solid gray;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.card-three .card-three-one .pledge {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+
+.card-three .card-three-one .pledge a {
+    color: #2a837d;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.card-three .card-three-one .reward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-three .card-three-one .reward p {
+    vertical-align: bottom;
+    margin-right: 380px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card-three .card-three-one .reward button {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #2a837d;
+    width: 130px;
+    height: 50px;
+    font-size: 0.8rem;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.card-three .card-three-two {
+    border: 1px solid gray;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.card-three .card-three-two .pledge {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+
+.card-three .card-three-two .pledge a {
+    color: #2a837d;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.card-three .card-three-two .reward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-three .card-three-two .reward p {
+    vertical-align: bottom;
+    margin-right: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card-three .card-three-two .reward button {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #2a837d;
+    width: 140px;
+    height: 50px;
+    font-size: 0.8rem;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.card-three .card-three-three {
+    border: 1px solid gray;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    opacity: 0.4;
+}
+
+.card-three .card-three-three .pledge {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+
+.card-three .card-three-three .pledge p {
+    color: #2a837d;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.card-three .card-three-three .reward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-three .card-three-three .reward p {
+    vertical-align: bottom;
+    margin-right: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card-three .card-three-three .reward button {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background: #cccccc;
+    width: 140px;
+    height: 50px;
+    font-size: 0.8rem;
+    margin-left: 50px;
+}
