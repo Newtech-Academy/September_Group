@@ -7,3 +7,309 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    position:relative;
+    /* justify-content: space-evenly; */
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    /* align-items: center; */
+    box-shadow: 0px 5px 10px 10px #aaa;
+    opacity: 0.7;
+    height:50px;
+    z-index:2;
+}
+
+header h1{
+    display:inline;
+    position:absolute;
+    left:300px;
+}
+header li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+header ul{
+    position:absolute;
+    right: 200px;
+    padding-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #444;
+}
+#home{
+    background: url(https://i.postimg.cc/wT3TQS3V/header-image2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position:relative;
+    top:0px;
+    z-index:1;
+}
+#home h1 {
+    padding: 5px;
+    position:absolute;
+    top: 150px;
+    left: 43%;
+    width: 300px;
+    margin:auto;
+}
+#home p{
+    position: absolute;
+    font-size: 20px;
+    top: 200px;
+    left:41%;
+}
+#home input{
+    background-color: #16a083;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+    left:47%;
+    
+}
+#aboutus{
+    background-color: #f5f5f7;
+    padding: 80px 0 80px 0;
+    height:525px;
+    width:100%;
+}
+#aboutus img{
+    width: 470px;
+    position: absolute;
+    right: 20%;
+}
+.aboutus_text{
+    position:absolute;
+    width: 510px;
+    left:20%;
+}
+
+.aboutus_text h2{
+    font-size:34px;
+    }
+
+.aboutustitle{
+    font-weight: 700;
+    color: #666;
+}
+.aboutus_text p{
+    color: #555;
+    font-size: 17px;
+}
+
+#food_meniu{
+    background-color: #000;
+    width:100%;
+    height: 1400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#types{
+    color: #555;
+    font-weight: 100;
+    text-align: center;
+    font-size: 28px;
+}
+#food{
+    text-align: center;
+}
+#food img{
+    width: 300px;
+    padding: 40px 15px 0px 15px;
+}
+#what_do_you{
+    color: #666;
+    font-size: 48px;
+    margin: 100px 0 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+.meniu_dublu{
+    margin-top:35px;
+    /* border: 2px solid yellow; */
+    width:1105px;
+    margin-left:auto;
+    margin-right:auto;
+    height:240px;
+    }
+
+.meniu_img{
+    width:235px;
+    border-radius: 50%;
+    height:235px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#img1{
+    background-image: url(https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg);
+}
+
+#img2{
+    background-image: url(https://i.postimg.cc/sgzXPzzd/food-menu2.jpg);
+}
+
+#img3{
+    background-image: url(https://i.postimg.cc/8zbCtYkF/food-menu3.jpg);
+}
+
+#img4{
+    background-image: url(https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg);
+}
+
+#img5{
+    background-image: url(https://i.postimg.cc/KYnDqxkP/food-menu5.jpg);
+}
+
+#img6{
+    background-image: url(https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg);
+}
+
+ .meniu_text{
+    color: #555;
+    width: 290px;
+    height: 235px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 21px;
+    /* border: 2px solid white; */
+    vertical-align: top;
+    padding-top:70px;
+} 
+
+.price{
+    color:#117964;
+    font-weight: bold;
+  }
+
+#testimonials{
+    background-color: #f3f3f3;
+    width:100%;
+    height:605px;
+    padding-top: 90px;
+    text-align: center;
+   }  
+
+#testimonials h2{
+    color: #555;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+   }
+.customer{
+  width:320px;
+  height: 320px;
+  /* border: 2px solid red; */
+  margin-top: 35px;
+  display: inline-block;  
+}   
+.names{
+    font-size: 20px;
+} 
+.test_desc{
+    color: #444;
+    padding: 25px 10px 10px 10px;
+    text-align:center ;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#formular{
+    width:100%;
+    height:545px;
+    background-color: #e2e2e2;
+    text-align: center;
+    padding-top: 75px;
+    
+    }
+
+#form_area{
+    width: 1130px;
+    height: 400px;
+    background-color:#fff;
+    display: inline-block;
+    text-align: left;
+    position:relative;
+}
+#form_area img{
+    width:563px;
+}
+
+#form_area h2{
+    display:inline-block;
+    font-size: 34px;
+    font-weight:600;
+    color: #555;
+    position: absolute;
+    top:5px;
+    left:580px;
+}
+
+#form{
+   position:absolute;
+   top:80px;
+   left:580px;
+}
+
+.form_texts{
+    width:540px;
+    color: #444;
+    border-color: #555;
+    border:none;
+    border-bottom: 1px solid rgb(189, 185, 185);
+    padding:5px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#button_contact{
+    background-color: #16a083;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+footer{
+    width:100%;
+    height: 120px;
+    background-color: #414141;
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height:120px;
+}
+.photo_cust{
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+}
+#photo_cust_1{
+    background-image: url(https://i.postimg.cc/5Nrw360Y/male-photo1.jpg);
+}
+#photo_cust_2{
+    background-image: url(https://i.postimg.cc/sxd2xCD2/female-photo1.jpg);
+}
+#photo_cust_3{
+    background-image: url(https://i.postimg.cc/fy90qvkV/male-photo3.jpg);
+}
