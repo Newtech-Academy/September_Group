@@ -1,0 +1,359 @@
+// DEFAULT SETUP
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+   
+}
+
+// BACKGROUND HEADER IMAGE STYLE
+
+
+// NAV STYLE 
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.886);
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.logo{
+    font-size: 35px;
+    color: black;
+    letter-spacing: 2px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+}
+}
+.burger{
+    display: none;
+}
+.burger div{
+    background-color: grey;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+}
+
+@media screen and (max-width:1024px) {
+.nav-links{
+    width: 60%;
+}
+}
+
+@media screen and (max-width:800px) {
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: relative;
+}
+.nav-links{
+    z-index: 100;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+.nav-links li{
+    opacity: 0;
+}
+nav .burger{
+    display: block;
+}
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+// ********* MAIN ****************
+
+// **** SECTION ONE BELOW NAV BAR 1 *********
+.section-1 , .below-navbar{
+    width: 100%;
+    max-height: 55vh;
+img{
+    width: 100%;
+    max-height: 55vh;
+    object-fit: cover;
+}
+.text-container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 25vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 1px;
+*{
+    margin: 5px 0px;
+}
+p{
+    font-weight: 500;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color:#16a083;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+button:hover{
+    transition: 0.1s ease-in;
+    background-color: transparent;
+    border:1px solid #16a083;
+    font-weight: 600;
+    color: #16a083;
+}
+}
+
+}
+
+// *********** SECTION TWO ABOUT US 2 *************** //
+.section2 , .about-us{
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    align-items: center;
+.left-side-text{
+p span{
+    color: #666;
+    font-weight: 500;
+}
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    max-width: 38%;
+    margin: 0px 50px 0px 0px;
+}
+.right-side-strawberry img{
+    display: flex;
+    object-fit: cover;
+    max-width: 270px;
+}
+*{
+    margin: 5px 0px;
+}
+}
+// ****** SECTION 2 ABOUT US RESPONSIVE
+@media screen and (max-width:724px) {
+    .section2 , .about-us{
+        flex-direction: column;
+    }
+    }
+
+// *********** SECTION THREE TYPES OF FOOD 3
+.section3 , .types-food{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 1000px;
+h3{
+    display: flex;
+    justify-content: center;
+    color:#555 ;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color:#555 ;
+    font-size: 30px;
+    margin: 60px 0px;
+    font-weight: 500;
+}
+.photo-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+img{
+    justify-content: center;
+    max-width: 200px;
+    margin: 0px 10px;
+}
+}
+.dishes-photo-description{
+display: grid;
+grid-template-columns: auto auto;
+margin-left: auto;
+margin-right: auto;
+.image-text{
+*{
+    margin: 10px 10px;
+}
+img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    
+span{
+    color:#117964;
+    font-weight: 600;
+}
+}
+display: flex;
+max-width: 500px;
+justify-content: center;
+align-items: center;
+color: #555;
+}
+}
+}
+
+// *********** SECTION FOUR REVIEWS 4
+.section-4 , .reviews{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+}
+.reviews-container{
+    display: flex;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.review{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+p{
+    margin: 5px 0px;
+}
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+}
+}
+
+// *********** SECTION FIVE CONTACT US 5
+.section-5 , .contact-us{
+    width: 100%;
+    height: 60vh;
+    background-color:#e2e2e2 ;
+    align-items: center;
+    display: flex;
+
+.container *:not(.image){
+    margin: 8px 5px;
+}
+.container{
+    max-width: 70%;
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: white;
+h6{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #444;
+}
+form{
+h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #444;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #444;
+    width: 98%;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #444;
+}
+}
+img{
+    max-width: 400px;
+    object-fit: cover;
+}
+}
+}
+
+// *********** SECTION SIX FOOTER 6
+footer{
+    display: flex;
+    background-color: #414141;
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+.text-footer{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
